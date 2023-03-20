@@ -5,7 +5,7 @@ import About from './components/About';
 import Credits from './components/Credits';
 import Apply from './components/Apply';
 import Footer from './components/Footer';
-import Nub from './components/nub';
+// import Nub from './components/nub';
 import { getCredits, filterCredits } from './components/services/service-credits';
 import { creditButtons } from './components/data/content-credit';
 import React, { useState, useEffect } from 'react';
@@ -44,9 +44,10 @@ function reveal() {
 
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
-    } else {
+    } 
+    /* else {
       reveals[i].classList.remove("active");
-    }
+    } */
   }
 }
 
@@ -61,7 +62,7 @@ window.addEventListener("scroll", reveal);
       ) : (
       <>
       <NavBar />
-      <Nub />
+      {/*<Nub />*/}
       <div id="home">
       <Home />
       </div>

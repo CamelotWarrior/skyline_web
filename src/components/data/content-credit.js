@@ -144,7 +144,7 @@ export const creditsAll = [
         name: "CandyQueen01",
         image: require("../../images/credit-icons/candyqueen01.png"),
         role: "backstage",
-        twitter: "none",
+        twitter: "https://twitter.com/queenkitkat181",
         twitch: "none",
         youtube: "none",
         website: "none",
@@ -330,5 +330,9 @@ export const creditButtons = [
     {
         name: "Backstage",
         value: "backstage"
+    },
+    {
+        name: "Voice Actors",
+        value: "voice"
     },
 ];
