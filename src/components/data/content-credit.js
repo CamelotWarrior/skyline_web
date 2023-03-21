@@ -410,6 +410,26 @@ export const creditsAll = [
         youtube: "https://www.youtube.com/@yocatyolionz",
         website: "none",
     },
+    {
+        id: 42,
+        name: "LexsNonsense",
+        image: require("../../images/credit-icons/placeholder.png"),
+        role: "voice",
+        twitter: "http://twitter.com/lexsnonsense",
+        twitch: "none",
+        youtube: "none",
+        website: "none",
+    },
+    {
+        id: 43,
+        name: "Aeroport",
+        image: require("../../images/credit-icons/placeholder.png"),
+        role: "voice",
+        twitter: "none",
+        twitch: "none",
+        youtube: "none",
+        website: "none",
+    },
 
 ];
 
