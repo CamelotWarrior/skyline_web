@@ -67,12 +67,11 @@ WEB NORMAL
 
 /*Navbar*/
 .navbar {
-  background-color: rgb(22, 6, 80,0.80);
+  background-color: rgb(22, 6, 80);
   box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: .02%;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -118,6 +117,7 @@ WEB NORMAL
     }
 }
 
+
 /* Home */
 .skyline-home {
   display: flex;
@@ -127,6 +127,10 @@ WEB NORMAL
   background: rgb(22, 6, 80,0.75);
   position: relative;
   box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+}
+
+.home-video {
+  width: 100%;
 }
 
 .skyline-home .home-text {
@@ -164,6 +168,7 @@ WEB NORMAL
     }
 }
 
+
 /* About */
 
 .about-wrapper {
@@ -177,7 +182,7 @@ WEB NORMAL
 .about-white-bar-top {
   background-color: whitesmoke;
   width:100%;
-  height: 90%;
+  height: 100%;
   position:absolute;
   -webkit-transform: skew(0, -4deg) translateY(calc(50vw/-12));
   -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
@@ -194,40 +199,140 @@ WEB NORMAL
   -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
   transform: skew(0, -4deg) translateY(calc(50vw/-12));
   left:0;
-  box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+  z-index: 1;
 }
 
 .skyline-about {
   display: flex;
   flex-direction: row;
   color: black;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  width: 90%;
 }
 
-.skyline-about .about-photo .about-image {
-  width: 110%;
-  padding: 3%;
-}
-
-.skyline-about .skyline-text {
-  width: 60%;
-  padding: 3%;
-  margin: 10% auto 10% auto;
-  box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+.about-image {
+  width: 80%;
+  z-index: 999;
+  padding: 5%;
 }
 
 .skyline-text {
-  background-color: white;
+  width: 70%;
+  padding: 5.5%;
+  margin: 10% auto 10% auto;
 }
 
-.skyline-about .skyline-text h1 {
-  font-size: 3vw;
+.skyline-about-header {
+  font-size: 2.4vw;
   font-weight: 640;
 }
 
-.skyline-about .skyline-text p {
-  font-size: 1.4vw;
+.skyline-about-desc {
+  font-size: 1.2vw;
 }
+
+.about-button {
+  width: 13%;
+  font-size: 1.5vw;
+  padding: 0.7%;
+  border: none;
+  color: whitesmoke;
+  background-color: rgb(145, 140, 216);
+  border-radius: 500px;
+  font-weight: 550;
+  text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+  transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+  box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+  border: 3px solid rgba(191, 186, 219, 0.904);
+  position: absolute;
+}
+
+.about-button:hover{
+  background-color: rgba(173, 165, 223);
+  font-size: 1.55vw;
+  cursor: pointer;
+}
+
+.about-button-apply {
+  width: 40%;
+  font-size: 1.5vw;
+  padding: 1.5%;
+  border: none;
+  color: whitesmoke;
+  background-color: rgb(145, 140, 216);
+  border-radius: 500px;
+  font-weight: 550;
+  text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+  transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+  box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+  border: 3px solid rgba(191, 186, 219, 0.904);
+  margin: 5% auto 5% auto;
+}
+
+.about-button-apply:hover{
+  background-color: rgba(173, 165, 223);
+  font-size: 1.55vw;
+  cursor: pointer;
+}
+
+/* Character */
+.character-wrapper {
+  background: linear-gradient(rgba(22, 6, 80, 0.9), rgba(84, 53, 196, 0.9), rgba(145, 140, 216, 0.8)), url(../images/stars2.gif) repeat;
+  height: 60%;
+  padding: 16%;
+}
+
+.skyline-character {
+  color: black;
+  width: 90%;
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: stretch;
+}
+
+.character-image {
+  width: 200%;
+  padding: 10%;
+}
+
+.character-text {
+  width: 300%;
+  padding: 5%;
+  margin: 5% auto 5% auto;
+  color: whitesmoke;
+  text-shadow: 0 3px 7px rgb(0 0 0 / 100%);
+}
+
+.character-header {
+  font-size: 2.4vw;
+  font-weight: 640;
+}
+
+.character-desc {
+  font-size: 1.2vw;
+}
+
+.character-button {
+  width: 30%;
+  font-size: 1.5vw;
+  padding: 1.5%;
+  border: none;
+  color: whitesmoke;
+  background-color: rgb(145, 140, 216);
+  border-radius: 500px;
+  font-weight: 550;
+  text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+  transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+  box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+  border: 3px solid rgba(191, 186, 219, 0.904);
+}
+
+.character-button:hover{
+  background-color: rgba(173, 165, 223);
+  font-size: 1.55vw;
+  cursor: pointer;
+}
+
 
 /* Credits */
 
@@ -235,9 +340,6 @@ WEB NORMAL
   background: linear-gradient(rgba(22, 6, 80, 0.9), rgba(84, 53, 196, 0.9), rgba(145, 140, 216, 0.8)), url(../images/stars2.gif) repeat;
   height: 50%;
   padding: 8%;
-  border-bottom-color: whitesmoke;
-  border-bottom-style: groove;
-  border-bottom-width: .5vw;
 }
 
 .credits-header {
@@ -266,8 +368,8 @@ WEB NORMAL
   font-size: 1.5vw;
   padding: 2%;
   border: none;
-  color: rgb(145, 140, 216);
-  background-color: none;
+  color: whitesmoke;
+  background-color: rgb(145, 140, 216);
   border-radius: 500px;
   font-weight: 550;
   text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
@@ -277,8 +379,9 @@ WEB NORMAL
 }
 
 .credit-buttons:hover {
-  color: rgba(173, 165, 223, 0.904);
+  background-color: rgba(173, 165, 223);
   font-size: 1.55vw;
+  cursor: pointer;
 }
 
 .credit {
@@ -412,17 +515,15 @@ WEB NORMAL
 
 .footer-wrapper {
   display: flex;
-  flex-direction: column;
-  background: linear-gradient(rgba(206, 206, 214, 0.8), rgb(86, 71, 141),rgb(12, 3, 43));
-  background-color: rgb(12, 3, 43);
-  justify-content: center;
+  background-color: rgb(22, 6, 80,0.80);
+  justify-content: space-around;
   align-items: center;
-  padding: 1%;
+  width: 100%;
 }
 
 .footer-logo {
-  width: 15vw;
-  padding: 2%;
+  width: 7vw;
+  padding: .5%;
 }
 
 .footer-socials {
@@ -435,12 +536,13 @@ WEB NORMAL
 }
 
 .footer-links {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
   padding: 5%;
 }
 
 .footer-icon {
-  width: 4vw;
+  width: 3.5vw;
   display: inline;
   background-color: rgb(12, 3, 43);
   border-radius: 500px;
@@ -454,8 +556,8 @@ WEB NORMAL
 
 .footer-text {
   color: whitesmoke;
-  padding: 1%;
-  font-size: 1.2vw;
+  padding: .5%;
+  font-size: 1.3vw;
 }
 
 /* CSS Animation to load content while scrolling */
@@ -464,7 +566,7 @@ WEB NORMAL
   position: relative;
   transform: translateY(30px);
   opacity: 0;
-  transition: 1s all ease;
+  transition: 1.5s all ease-in;
 }
 
 .reveal.active{

@@ -6,6 +6,7 @@ import ApplyPage from '../pages/ApplyPage';
 import CharPage from '../pages/CharPage';
 import HomePage from '../pages/HomePage';
 import CreditsPage from '../pages/CreditsPage';
+import NewsPage from '../pages/NewsPage';
 
 
 function navRouter() {

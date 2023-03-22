@@ -22,11 +22,11 @@ export const creditsAll = [
     {
         id: 3,
         image: require("../../images/credit-icons/marshiemallow.png"),
-        twitch: "https://twitch.tv/marshiemallowlive",
+        twitch: "https://twitch.tv/marshiemonarchlive",
         website: "https://marshielinks.carrd.co/",
         youtube: "none",
         twitter: "none",
-        name: "MarshieMallow",
+        name: "MarshieMonarch",
         role: "content",
     },
     {
@@ -201,7 +201,7 @@ export const creditsAll = [
     },
     {
         id: 21,
-        name: "Danidotastrid",
+        name: "danidotastrid",
         image: require("../../images/credit-icons/danidotastrid.png"),
         role: "backstage",
         twitter: "https://www.twitter.com/danidotastrid",
@@ -221,7 +221,7 @@ export const creditsAll = [
     },
     {
         id: 23,
-        name: "LillaAngel",
+        name: "LillaAnjel",
         image: require("../../images/credit-icons/lillaangel.png"),
         role: "backstage",
         twitter: "https://twitter.com/LillaAnjel",
@@ -332,7 +332,7 @@ export const creditsAll = [
     },
     {
         id: 34,
-        name: "Miles",
+        name: "MilesAbove",
         image: require("../../images/credit-icons/milesabove.png"),
         role: "backstage",
         twitter: "https://twitter.com/milesabove1992",
@@ -383,7 +383,7 @@ export const creditsAll = [
     {
         id: 39,
         name: "SpilledInk",
-        image: require("../../images/credit-icons/placeholder.png"),
+        image: require("../../images/credit-icons/ink.png"),
         role: "voice",
         twitter: "https://twitter.com/Spilled_Ink__",
         twitch: "none",
@@ -407,8 +407,8 @@ export const creditsAll = [
         role: "voice",
         twitter: "none",
         twitch: "none",
-        youtube: "https://www.youtube.com/@yocatyolionz",
-        website: "none",
+        youtube: "none",
+        website: "https://bongocatia.carrd.co/",
     },
     {
         id: 42,

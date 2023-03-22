@@ -11,7 +11,6 @@ export default function NavBar() {
                 <li className='nav-item'><Link activeClass='visual' to="characters" spy={true} smooth={true} alt="characters">Characters</Link></li>
                 <li className='nav-item'><Link activeClass='visual' to="news" spy={true} smooth={true} alt="news">News</Link></li>
                 <li className='nav-item'><Link activeClass='visual' to="credits" spy={true} smooth={true} alt="credits">Credits</Link></li>
-                <li className='nav-item'><Link activeClass='visual' to="apply" spy={true} smooth={true} alt="apply">Apply</Link></li>
             </ul>
         </nav>
     )

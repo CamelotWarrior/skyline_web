@@ -2,13 +2,14 @@ import './styles/App.css';
 import NavBar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
+import Character from './components/Character';
 import Credits from './components/Credits';
-import Apply from './components/Apply';
 import Footer from './components/Footer';
 // import Nub from './components/nub';
 import { getCredits, filterCredits } from './components/services/service-credits';
 import { creditButtons } from './components/data/content-credit';
 import React, { useState, useEffect } from 'react';
+import navRouter from './components/navRouter';
 
 function App() {
 
@@ -73,6 +74,11 @@ window.addEventListener("scroll", reveal);
         </div>
         <div className='about-white-bar-bottom'/>
         </div>
+        <div id="characters" className='character-wrapper'>
+          <div className='container reveal'>
+              <Character />
+              </div>
+            </div>
         <div id="credits" className="credit-wrapper">
         <div className='container reveal'>
           <h1 className="credits-header">CREDITS</h1>
@@ -96,14 +102,10 @@ window.addEventListener("scroll", reveal);
           </section>
           </div>
         </div>
-        <div id="apply" className='apply-wrapper'>
-        <div className='container reveal'>
-        <Apply />
-        </div>
-        </div>
       <Footer />
       </>
       )}
+      <navRouter />
     </div>
   );
 }
