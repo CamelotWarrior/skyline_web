@@ -67,9 +67,11 @@ window.addEventListener("scroll", reveal);
       <Home />
       </div>
         <div id="about" className='about-wrapper'>
+        <div className='about-white-bar-top'/>
         <div className='container reveal'>
         <About />
         </div>
+        <div className='about-white-bar-bottom'/>
         </div>
         <div id="credits" className="credit-wrapper">
         <div className='container reveal'>
