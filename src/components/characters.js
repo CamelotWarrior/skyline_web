@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import { ccSlides } from './data/cc-character-slide';
-import NavBar from './Navbar';
-import Footer from './Footer';
+import { ccSlide } from './data/cc-character-slide';
 
 const ContentSlider = ({slides}) => {
     const [current, setCurrent] = useState(0);
@@ -22,11 +20,10 @@ const ContentSlider = ({slides}) => {
 
     return (
         <>
-        <NavBar/>
         <section className='slider'>
             <MdKeyboardArrowLeft className="left-arrow" onClick={prevSlide} />
             <MdKeyboardArrowRight className="right-arrow" onClick={nextSlide} />
-            {ccSlides.map((slide, index) => {
+            {ccSlide.map((slide, index) => {
                 return (
                     <div
                     className={index === current ? 'slide active' : 'slide'}
@@ -44,7 +41,6 @@ const ContentSlider = ({slides}) => {
                 );
             })};
         </section>
-        <Footer/>
         </>
     );
     

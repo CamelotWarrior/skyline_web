@@ -19,9 +19,7 @@ export default function About() {
                 <div className = 'about-buttons-wrapper'>
                 <div className= 'about-buttons'>
                 <button className="about-button">
-                    <a href="/about">
                         Learn More
-                    </a>
                 </button>
                 </div>
             </div>
