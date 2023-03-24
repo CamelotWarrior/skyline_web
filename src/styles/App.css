@@ -67,18 +67,20 @@ WEB NORMAL
 
 /*Navbar*/
 .navbar {
-  background-color: rgb(22, 6, 80);
+  background-color: rgb(22, 6, 80, .6);
   box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
   display: flex;
-  justify-content: space-around;
   align-items: center;
   position: fixed;
   width: 100%;
   z-index: 999;
+  padding: 0.5% 0.5% 0.5% .5%;
 }
 
 .nav-image {
-  width: 7%;
+  width: 6%;
+  padding: 0.2%;
+  margin-left: 1%;
 }
 
 .nav-links {
@@ -88,7 +90,7 @@ WEB NORMAL
 }
 
 .nav-item {
-  padding: 15px;
+  padding: 10px;
   color: whitesmoke;
   font-weight: 645;
   font-size: 1.3vw;
@@ -99,6 +101,34 @@ WEB NORMAL
 
 .nav-item:hover {
   color: rgb(145, 140, 216);
+  cursor: pointer;
+}
+
+.apply-button {
+  width: 10%;
+  font-size: 1.3vw;
+  padding: .5%;
+  border: none;
+  color: whitesmoke;
+  background-color: rgb(145, 140, 216);
+  border-radius: 500px;
+  font-weight: 550;
+  text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+  transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+  box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+  border: 3px solid rgba(191, 186, 219, 0.904);
+  margin-left: auto;
+  margin-right: 3%;
+}
+
+.apply-link {
+  color: whitesmoke; 
+  text-decoration: none; 
+}
+
+.apply-button:hover{
+  background-color: rgba(173, 165, 223);
+  font-size: 1.35vw;
   cursor: pointer;
 }
 
@@ -152,7 +182,7 @@ WEB NORMAL
   z-index: 2;
   position: absolute;
   right: 50%;
-  bottom: 37%;
+  bottom: 30%;
   width: 25%;
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
@@ -188,6 +218,18 @@ WEB NORMAL
   -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
   transform: skew(0, -4deg) translateY(calc(50vw/-12));
   left:0;
+  animation: whiteBarDrop ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes whiteBarDrop {
+  0% {
+    
+  }
+  100% {
+    
+  }
 }
 
 .about-white-bar-bottom {
@@ -247,29 +289,12 @@ WEB NORMAL
   position: absolute;
 }
 
+.about-link {
+  color: whitesmoke; 
+  text-decoration: none; 
+}
+
 .about-button:hover{
-  background-color: rgba(173, 165, 223);
-  font-size: 1.55vw;
-  cursor: pointer;
-}
-
-.about-button-apply {
-  width: 40%;
-  font-size: 1.5vw;
-  padding: 1.5%;
-  border: none;
-  color: whitesmoke;
-  background-color: rgb(145, 140, 216);
-  border-radius: 500px;
-  font-weight: 550;
-  text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
-  transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
-  box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
-  border: 3px solid rgba(191, 186, 219, 0.904);
-  margin: 5% auto 5% auto;
-}
-
-.about-button-apply:hover{
   background-color: rgba(173, 165, 223);
   font-size: 1.55vw;
   cursor: pointer;
@@ -300,7 +325,7 @@ WEB NORMAL
   padding: 5%;
   margin: 5% auto 5% auto;
   color: whitesmoke;
-  text-shadow: 0 3px 7px rgb(0 0 0 / 100%);
+  text-shadow: 0 3px 7px rgb(0 0 0 / 60%);
 }
 
 .character-header {
@@ -327,10 +352,68 @@ WEB NORMAL
   border: 3px solid rgba(191, 186, 219, 0.904);
 }
 
+.character-link {
+  color: whitesmoke; 
+  text-decoration: none; 
+}
+
 .character-button:hover{
   background-color: rgba(173, 165, 223);
   font-size: 1.55vw;
   cursor: pointer;
+}
+
+/* News */
+
+.news-wrapper {
+  background-color: whitesmoke;
+  height: 50%;
+  border-bottom-color: whitesmoke;
+  border-bottom-style: groove;
+  border-bottom-width: .5vw;
+}
+
+.news-white-bar-top {
+  background-color: whitesmoke;
+  width:100%;
+  height: 100%;
+  position:absolute;
+  -webkit-transform: skew(0, 4deg) translateY(calc(50vw/-12));
+  -ms-transform: skew(0, 4deg) translateY(calc(50vw/-12));
+  transform: skew(0, 4deg) translateY(calc(50vw/-12));
+  left:0;
+}
+
+.news-white-bar-bottom {
+  background-color: whitesmoke;
+  width:100%;
+  height: 16%;
+  position:absolute;
+  left:0;
+  z-index: 1;
+}
+
+.skyline-news {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.news-image {
+  width: 80%;
+  z-index: 999;
+  padding: 5%;
+}
+
+.skyline-news-header {
+  font-size: 2.4vw;
+  font-weight: 640;
+}
+
+.skyline-news-desc {
+  font-size: 1.2vw;
 }
 
 
@@ -346,6 +429,10 @@ WEB NORMAL
   text-align: center;
   font-size: 2.8vw;
   color: whitesmoke;
+  animation: cardAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  text-shadow: 0 3px 7px rgb(0 0 0 / 60%);
 }
 
 .credits-menu {
@@ -355,12 +442,18 @@ WEB NORMAL
   align-items: center;
   padding: 3% 20%;
   position: relative;
+  animation: cardAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .credit-buttons-wrapper {
   width: max-content;
   flex: 1 0 0;
   padding: 2% 2%;
+  animation: cardAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .credit-buttons {
@@ -460,21 +553,21 @@ WEB NORMAL
   width: 4vw;
   padding: 2%;
   display: inline;
-  background-color: rgba(191, 186, 219, 0.904);
+  background-color: rgba(145, 132, 216, 0.904);
   border-radius: 500px;
   transition: background-color .25s ease-out 25ms; 
 }
 
 .credit-icon:hover {
-  background-color: rgba(143, 134, 192, 0.904); 
+  background-color: rgba(124, 108, 216, 0.904); 
 }
 
 /* Apply */
 
 .apply-wrapper {
   background: linear-gradient(rgba(145, 140, 216, 0.8), rgba(207, 206, 221, 0.8)), url(../images/stars2.gif) repeat;
-  height: 40%;
-  padding: 6%;
+  height: 60%;
+  padding: 7%;
 }
 
 .form-wrapper {
@@ -482,6 +575,9 @@ WEB NORMAL
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .form-head {
@@ -511,19 +607,25 @@ WEB NORMAL
   padding: 1%;
 }
 
+.form-embed {
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 /* Footer */
 
 .footer-wrapper {
   display: flex;
   background-color: rgb(22, 6, 80,0.80);
-  justify-content: space-around;
   align-items: center;
   width: 100%;
 }
 
 .footer-logo {
-  width: 7vw;
-  padding: .5%;
+  width: 6.5vw;
+  padding: .05%;
+  margin-left: 2%;
 }
 
 .footer-socials {
@@ -532,17 +634,19 @@ WEB NORMAL
   flex-direction: row; 
   justify-content: center;
   margin: 1%;
-  padding: 0.5%;
+  padding: 0.05%;
+  margin-left: auto;
+  margin-right: 4%;
 }
 
 .footer-links {
   display: flex;
   justify-content: space-around;
-  padding: 5%;
+  padding: 2%;
 }
 
 .footer-icon {
-  width: 3.5vw;
+  width: 3vw;
   display: inline;
   background-color: rgb(12, 3, 43);
   border-radius: 500px;
@@ -557,7 +661,9 @@ WEB NORMAL
 .footer-text {
   color: whitesmoke;
   padding: .5%;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
+  margin-left: 30%;
+  margin-right: auto;
 }
 
 /* CSS Animation to load content while scrolling */

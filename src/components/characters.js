@@ -1,49 +1,32 @@
-import React, { useState } from 'react';
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import { ccSlide } from './data/cc-character-slide';
+import SwiperCore, {Navigation, Pagination, Scrollbar, Ally, EffectFade} from 'swiper';
+import {Swiper, SwiperSlide } from 'swiper/react';
+import React from 'react';
 
-const ContentSlider = ({slides}) => {
-    const [current, setCurrent] = useState(0);
-    const length = slides.length;
+import 'swiper/swiper.css';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/navigation/pagination.scss';
+import 'swiper/components/navigation/scrollbar.scss';
 
-    const nextSlide = () => {
-        setCurrent(current === length - 1 ? 0 : current + 1);
-    };
+SwiperCore.use([Navigation, Pagination, Scrollbar, Ally, EffectFade]);
 
-    const prevSlide = () => {
-        setCurrent(current === 0 ? length - 1 : current - 1);
-    };
-
-    if (!Array.isArray(slides) || slides.length <= 0) {
-        return null;
-    }
-
+export default function Characters(props) {
     return (
-        <>
-        <section className='slider'>
-            <MdKeyboardArrowLeft className="left-arrow" onClick={prevSlide} />
-            <MdKeyboardArrowRight className="right-arrow" onClick={nextSlide} />
-            {ccSlide.map((slide, index) => {
-                return (
-                    <div
-                    className={index === current ? 'slide active' : 'slide'}
-                    key={index}>
-                        {index === current && (
-                            <h3 className='ccSlideName'>{slide.name}</h3>
-                        )}
-                        {index === current && (
-                            <h3 className='ccSlideBlurb'>{slide.blurb}</h3>
-                        )}
-                        {index === current && (
-                            <img src={slide.image} alt={slide.alt} className='ccSlideImage' />
-                        )}
-                    </div>
-                );
-            })};
-        </section>
-        </>
-    );
-    
+        <Swiper
+        spaceBetween={50}
+        slidesPerView={3}
+        navigation
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log('slide change')}
+        >
+        <SwiperSlide>
+            <div className="character-slide">
+            <img src={props.image} className="character-image" alt={props.name}/>
+            <h3 className="character-slide-header">{props.name}</h3>
+            <p className="character-slide-text">{props.blurb}</p>
+            </div>
+        </SwiperSlide>
+        </Swiper>
+    )
 };
-
-export default ContentSlider;

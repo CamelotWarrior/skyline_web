@@ -9,7 +9,7 @@ export default function Credits(props) {
     let twitterLink = null;
     if (props.twitter !== "none") {
         twitterLink = <a href={props.twitter} target="_blank" className="credit-links" rel="noreferrer">
-                            <img src={require("../images/socials/twitter.png")} className="credit-icon"  alt="Twitter"/>
+                            <img src={require("../images/socials/twitter_test.png")} className="credit-icon"  alt="Twitter"/>
                     </a>
     }
 
@@ -17,7 +17,7 @@ export default function Credits(props) {
     let twitchLink = null;
     if (props.twitch !== "none") {
         twitchLink = <a href={props.twitch} target="_blank" className="credit-links" rel="noreferrer">
-        <img src={require("../images/socials/twitch.png")} className="credit-icon"  alt="Twitch"/>
+        <img src={require("../images/socials/twitch_test.png")} className="credit-icon"  alt="Twitch"/>
 </a>
     }
 
@@ -25,7 +25,7 @@ export default function Credits(props) {
     let websiteLink = null;
     if (props.website !== "none") {
         websiteLink = <a href={props.website} target="_blank" className="credit-links" rel="noreferrer">
-        <img src={require("../images/socials/website.png")} className="credit-icon" alt="Website"/>
+        <img src={require("../images/socials/website_test.png")} className="credit-icon" alt="Website"/>
 </a>
     }
 
@@ -33,7 +33,7 @@ export default function Credits(props) {
     let youtubeLink = null;
     if (props.youtube !== "none") {
         youtubeLink = <a href={props.youtube} target="_blank" className="credit-links" rel="noreferrer">
-        <img src={require("../images/socials/youtube.png")} className="credit-icon" alt="YouTube"/>
+        <img src={require("../images/socials/youtube_test.png")} className="credit-icon" alt="YouTube"/>
 </a>
     }
     

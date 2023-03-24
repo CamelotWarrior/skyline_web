@@ -4,7 +4,9 @@ import AboutPage from './pages/AboutPage';
 import NewsPage from './pages/NewsPage';
 import CharPage from './pages/CharPage';
 import CreditsPage from './pages/CreditsPage';
+import ApplyPage from './pages/ApplyPage';
 import Layout from './pages/Layout';
+import ScrollToTop from './components/services/ScrollToTop';
 // import Nub from './components/nub';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -23,6 +25,7 @@ useEffect(() => {
 */
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Layout />}>
         <Route index element={<HomePage />} />
@@ -30,6 +33,7 @@ useEffect(() => {
         <Route path='/characters' element={<CharPage />} />
         <Route path='/news' element={<NewsPage />} />
         <Route path='/credits' element={<CreditsPage />} />
+        <Route path='/apply' element={<ApplyPage />}/>
         </Route>
       </Routes>
     </Router>

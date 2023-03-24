@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import {Link} from 'react-router-dom';
 
 
 /* export function getCharImages() {
@@ -25,7 +25,7 @@ export default function Character() {
                 <p className='character-desc'>Skyline Rem is a collaborative project with passionate creators and dedicated backstage. 
                 Our goal is to provide a story to our tight-knit and kind-hearted community.</p>
                 <button className="character-button">
-                    Learn More
+                <Link className="character-link" to="/characters">Learn More</Link>
                 </button>
             </div>
         </section>

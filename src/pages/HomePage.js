@@ -1,27 +1,10 @@
-import React, { useState, useEffect } from 'react';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Home from '../components/Home';
 import About from '../components/About';
 import Character from '../components/Character';
-import Credits from '../components/Credits';
-import { getCredits, filterCredits } from '../components/services/service-credits';
-import { creditButtons } from '../components/data/content-credit';
+import News from '../components/News';
 const HomePage = () => {
-
-//Code to set Credits being rendered
-const [filteredCredits, setFilteredCredits] = useState("");
-useEffect(() => {
-    setFilteredCredits(getCredits());
-}, []);
-
-//Code to handle Credit Change
-function handleCredits(e) {
-    let typeCredit = e.target.value;
-    typeCredit !== ""
-    ? setFilteredCredits(filterCredits(typeCredit))
-    : setFilteredCredits(getCredits());
-}
 
 //Code to handle visible on scroll
 function reveal() {
@@ -56,34 +39,22 @@ return (
 <div className='container reveal'>
 <About />
 </div>
-<div className='about-white-bar-bottom'/>
 </div>
 <div id="characters" className='character-wrapper'>
     <div className='container reveal'>
         <Character />
         </div>
     </div>
+    <div id="news" className='news-wrapper'>
+    <div className='news-white-bar-top'/>
+<div className='container reveal'>
+<News />
+</div>
+<div className='news-white-bar-bottom'/>
+</div>
 <div id="credits" className="credit-wrapper">
 <div className='container reveal'>
     <h1 className="credits-header">CREDITS</h1>
-    <div className="credits-menu">
-    {creditButtons && creditButtons.map((type, index) => (
-    <div className="credit-buttons-wrapper">
-        <button key={index} value={type.value} onClick={handleCredits} className="credit-buttons">
-        {type.name}
-        </button>
-    </div>
-    ))}
-    </div>
-    <section className="credits-list">
-    {filteredCredits && filteredCredits.map(credit => {
-        return (
-        <Credits
-        key={credit.id}
-        {...credit}/>
-        )
-    })}
-    </section>
     </div>
 </div>
 <Footer />
