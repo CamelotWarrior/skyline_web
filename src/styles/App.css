@@ -672,7 +672,7 @@ WEB NORMAL
   position: relative;
   transform: translateY(30px);
   opacity: 0;
-  transition: 1.5s all ease-in;
+  transition: 1s all linear;
 }
 
 .reveal.active{

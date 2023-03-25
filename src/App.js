@@ -10,20 +10,20 @@ import ScrollToTop from './components/services/ScrollToTop';
 // import Nub from './components/nub';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+//import {useState, useEffect} from 'react';
 
 function App() {
 
-  /*
 
 //Code to set loading screen
-const [loading, setLoading] = useState(false);
+/*const [loadingScreen, setLoadingScreen] = useState(false);
 useEffect(() => {
-  setLoading(true);
-  setTimeout(() => setLoading(false), 3000);
+  setLoadingScreen(true);
+  setTimeout(() => setLoadingScreen(false), 3000);
 }, []);
-
 */
   return (
+    <div>
     <Router>
       <ScrollToTop />
       <Routes>
@@ -37,6 +37,7 @@ useEffect(() => {
         </Route>
       </Routes>
     </Router>
+    </div>
   );
 }
 
