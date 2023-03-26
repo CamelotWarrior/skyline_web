@@ -18,14 +18,13 @@ export default function Character() {
     return(
         <section className="skyline-character">
             <div className="character-photo">
-            <img src={require('../images/CrystalV1.png')} className='character-image' alt='character'/>        
+            <img src={require('../images/home-sil.png')} className='character-image' alt='character'/>        
             </div>
             <div className="character-text">
                 <h1 className='character-header'>Meet our travelers!</h1>
-                <p className='character-desc'>Skyline Rem is a collaborative project with passionate creators and dedicated backstage. 
-                Our goal is to provide a story to our tight-knit and kind-hearted community.</p>
+                <p className='character-desc'>Meet our amazing travelers that have made their way into the world of Rem.</p>
                 <button className="character-button">
-                <Link className="character-link" to="/characters">Learn More</Link>
+                <Link className="character-link" to="/characters">View</Link>
                 </button>
             </div>
         </section>

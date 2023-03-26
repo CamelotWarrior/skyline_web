@@ -77,4 +77,10 @@ export const ccSlideThumb = [
         name: '???',
         alt: 'Art by CandyQueen01 and MarshieMonarch'
     },
+    {
+        id: 14,
+        image: require('../../images/splash/sil-14-thumb.png'),
+        name: '???',
+        alt: 'Art by CandyQueen01 and MarshieMonarch'
+    },
 ]

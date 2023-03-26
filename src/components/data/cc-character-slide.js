@@ -103,4 +103,12 @@ export const ccSlide = [
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
+    {
+        id: 14,
+        image: require("../../images/splash/sil-14.png"),
+        blurb: "???",
+        name: "???",
+        content: '???',
+        alt: "Art by CandyQueen01 and MarshieMonarch"
+    },
 ]
