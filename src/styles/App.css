@@ -160,6 +160,7 @@ WEB NORMAL
   width: 6.5vw;
   padding: .05%;
   margin-left: 2%;
+  margin-right: 15%;
 }
 
 .footer-socials {
@@ -169,7 +170,6 @@ WEB NORMAL
   justify-content: center;
   margin: 1%;
   padding: 0.05%;
-  margin-left: auto;
   margin-right: 4%;
 }
 
@@ -196,8 +196,7 @@ WEB NORMAL
   color: whitesmoke;
   padding: .5%;
   font-size: 1.2vw;
-  margin-left: 30%;
-  margin-right: auto;
+  margin: auto;
 }
 
 /* CSS Animation to load content while scrolling */
@@ -373,6 +372,7 @@ WEB SMALLER
   width: 8vw;
   padding: .05%;
   margin-left: 2%;
+  margin-right: 15%;
 }
 
 .footer-socials {
@@ -381,8 +381,8 @@ WEB SMALLER
   flex-direction: row; 
   justify-content: center;
   margin: 1%;
+  margin: 1%;
   padding: 0.05%;
-  margin-left: auto;
   margin-right: 4%;
 }
 
@@ -409,8 +409,7 @@ WEB SMALLER
   color: whitesmoke;
   padding: .5%;
   font-size: 1.2vw;
-  margin-left: 28%;
-  margin-right: auto;
+  margin: auto;
 }
 
 /* CSS Animation to load content while scrolling */

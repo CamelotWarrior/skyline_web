@@ -1,4 +1,3 @@
-import Footer from '../components/Footer';
 import Home from '../components/Home';
 import About from '../components/About';
 import Character from '../components/Character';
@@ -64,7 +63,6 @@ return (
                 </button>
     </div>
 </div>
-<Footer />
 </>
 </div>
 )

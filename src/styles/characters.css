@@ -445,30 +445,37 @@ MOBILE
 */
 
 @media only screen and (max-width: 500px) {
+
     .character-page-wrapper {
+        position: relative;
+        width: 100%;
         height: max-content;
+        overflow: hidden;
     }
-    
+
     .character-slideshow-wrapper {
         animation: change 12s infinite ease-in-out;
+        background-size: auto 100vh;
     }
     
     @keyframes change {
         0% {
-            background-image: url(../images/char-bg-1.png);
+            background-image: url(../images/char-bg-1_mobile.png);
         }
         50% {
-            background-image: url(../images/char-bg-2.png);
+            background-image: url(../images/char-bg-2_mobile.png);
         }
         100% {
-            background-image: url(../images/char-bg-1.png);
+            background-image: url(../images/char-bg-1_mobile.png);
         }
     }
     
     .character-slide-wrapper {
         display: flex;
-        flex-direction: row-reverse;
-        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        align-content: flex-start;
     }
     
     .character-slideshow {
@@ -478,8 +485,9 @@ MOBILE
     }
     
     .character-slide-image {
-        width: 100%;
+        width: 147%;
         z-index: 4;
+        padding: 0% 32% 0% 0%;
     /*   animation: characterAnimation ease-in-out 1s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards; */
@@ -498,46 +506,54 @@ MOBILE
     .character-slide-content {
         display: flex;
         flex-direction: column;
-        margin-right: auto;
-        margin-left: 15%;
+        align-items: center;
+        gap: 0px;
+        margin: auto;
     }
     
     .character-slide-header {
-        font-size: 8vw;
-        height: 5%;
-        padding: 190% 0% 0% 200%;
+        font-size: 12vw;
+        width: 100%;
+        padding: 5% 200% 5% 200%;
         color: whitesmoke;
+        background-color: rgba( 245, 245, 245, .5);
         z-index: 5;
+        text-align: center;
         text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        margin: auto;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     
     .character-slide-name {
-        font-size: 3vw;
-        background-color: rgba( 245, 245, 245, .5);
-        height: 7%;
-        width: 200%;
-        padding: 2% 0% 0% 200%;
+        font-size: 12vw;
+        width: 100%;
+        padding: 5% 200% 5% 200%;
+        background-color: rgba(245, 245, 245, 0.404);
         text-align: center;
         z-index: 5;
         box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        margin: auto;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     
     .character-slide-text {
-        font-size: 2vw;
         background-color: rgba( 245, 245, 245, .5);
-        margin-left: 50%;
-        height: 11%;
-        width: 500%;
-        padding: 15%;
+        font-size: 12vw;
+        width: 100%;
+        padding: 5% 200% 5% 200%;
         z-index: 5;
         text-align: center;
         box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
-        visibility: hidden;
+        margin: auto;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     
     
     .character-slides-thumbs {
-        width: 60%;
+        width: 100%;
     }
     
     .character-slide-wrapper-thumb {
@@ -565,7 +581,7 @@ MOBILE
         color: whitesmoke;
         text-align: center;
         text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
-        font-size: 1.5vw;
+        font-size: 2.5vw;
     }
     
     
@@ -581,22 +597,18 @@ MOBILE
     }
     
     .character-spacer {
-        background-color: rgba(48, 45, 65, 0.3);
+        background: rgba(48, 45, 65, 0.3);
         display: flex;
         justify-content: center;
         position: absolute;
         z-index: 9;
-        left: 0%;
-        top: 50.5%;
-        padding-top: 1%;
+        left: 0;
+        bottom: 0;
+        top: 53%;
+        padding-top: 2%;
         width: 100%;
-        height: 12vw;
+        height: 13%;
     }
-    
-    .content-spacer {
-        padding: 3%;
-    }
-    
     
     .swiper-button-next {
         right: 0;
@@ -642,7 +654,7 @@ MOBILE
     }
     
     .swiper-slide-active .character-slide-header-thumb {
-        font-size: 1.7vw;
+        font-size: 3vw;
     }
     
     .swiper-slide-prev .character-slide-image-thumb {

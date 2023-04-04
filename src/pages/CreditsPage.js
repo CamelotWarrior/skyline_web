@@ -2,8 +2,7 @@ import React, {useState,useEffect} from 'react';
 import { getCredits, filterCredits } from '../components/services/service-credits';
 import { creditButtons } from '../components/data/content-credit';
 import Credits from '../components/Credits';
-import NavBar from '../components/Navbar';
-import Footer from '../components/Footer';
+import '../styles/credit.css';
 
 function CreditsPage() {
 
@@ -23,7 +22,6 @@ function handleCredits(e) {
 
 return (
 <>    
-    <NavBar/>
         <div id="credits" className="credit-wrapper">
             <h1 className="credits-header">CREDITS</h1>
             <div className="credits-menu">
@@ -45,7 +43,6 @@ return (
                 })}
             </section>
         </div>
-    <Footer/>
 </>
 )
 

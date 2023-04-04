@@ -65,7 +65,6 @@ export default function Characters() {
                     )}
             </Swiper>
             </div>
-            {/*<div className="content-spacer" />*/}
         </div>
         </div>
     )
