@@ -1,3 +1,10 @@
+/*
+===================================
+DESKTOP LARGE
+===================================
+*/
+
+@media screen and (min-width: 1600px) and (max-width: 1991px) {
 /* Home */
 .skyline-home {
     display: flex;
@@ -366,6 +373,763 @@
     animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}    
+}
+
+/*
+===================================
+DESKTOP
+===================================
+*/
+
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+    .skyline-home {
+        display: flex;
+        z-index: 0;
+        justify-content: center;
+        align-items: center;
+        background: rgb(22, 6, 80,0.75);
+        position: relative;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    }
+    
+    .home-video {
+        width: 100%;
+    }
+    
+    .skyline-home .home-text {
+        z-index: 2;
+        position: absolute;
+        color: whitesmoke;
+        font-size: 5vw;
+        bottom: 61%;
+        right: 61%;
+        font-weight: 475;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 100%);
+        font-family: optima;
+    }
+    
+    .skyline-home .home-logo {
+        z-index: 2;
+        position: absolute;
+        right: 50%;
+        bottom: 30%;
+        width: 25%;
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+    }
+    }
+    
+    
+      /* About */
+    
+    .about-wrapper {
+        background-color: whitesmoke;
+        height: 50%;
+    }
+    
+    .about-white-bar-top {
+        background-color: whitesmoke;
+        width:100%;
+        height: 100%;
+        position:absolute;
+        -webkit-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        left:0;
+        animation: whiteBarDrop ease 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes whiteBarDrop {
+        0% {
+    
+        }
+        100% {
+    
+        }
+    }
+    
+    .about-white-bar-bottom {
+        background-color: whitesmoke;
+        width:100%;
+        height: 20%;
+        position:absolute;
+        -webkit-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        left:0;
+        z-index: 1;
+    }
+    
+    .skyline-about {
+        display: flex;
+        flex-direction: row;
+        color: black;
+        justify-content: space-around;
+        width: 90%;
+    }
+    
+    .about-image {
+        width: 100%;
+        z-index: 999;
+        padding: 5%;
+    }
+    
+    .skyline-text {
+        width: 110%;
+        padding: 5.5%;
+        margin: 10% auto 10% auto;
+    }
+    
+    .skyline-about-header {
+        font-size: 2.4vw;
+        font-weight: 640;
+    }
+    
+    .skyline-about-desc {
+        font-size: 1.2vw;
+    }
+    
+    .about-button {
+        width: 13%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        border: none;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);
+        position: absolute;
+    }
+    
+    .about-link {
+        color: whitesmoke; 
+        text-decoration: none; 
+    }
+    
+    .about-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
+    }
+    
+      /* Character */
+    .character-wrapper {
+        background: linear-gradient(rgba(22, 6, 80, 0.9), rgba(84, 53, 196, 0.9), rgba(145, 140, 216, 0.8)), url(../images/stars2.gif) repeat;
+        height: 60%;
+        padding: 11%;
+    }
+    
+    .skyline-character {
+        color: black;
+        width: 75%;
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: stretch;
+        align-items: center;
+    }
+    
+    .character-image {
+        width: 200%;
+        padding: 2% 0% 0% 10%;
+    }
+    
+    .character-text {
+        width: 280%;
+        padding: 6% 0% 0% 5%;
+        color: whitesmoke;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 60%);
+    }
+    
+    .character-header {
+        font-size: 2.4vw;
+        font-weight: 640;
+    }
+    
+    .character-desc {
+        font-size: 1.2vw;
+    }
+    
+    .character-button {
+        width: 37%;
+        font-size: 1.5vw;
+        padding: 1.7%;
+        border: none;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);
+    }
+    
+    .character-link {
+        color: whitesmoke; 
+        text-decoration: none; 
+    }
+    
+    .character-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
+    }
+    
+      /* News */
+    
+    .news-wrapper {
+        background-color: whitesmoke;
+        height: 50%;
+        border-bottom-color: whitesmoke;
+        border-bottom-style: groove;
+        border-bottom-width: .5vw;
+    }
+    
+    .news-white-bar-top {
+        background-color: whitesmoke;
+        width:100%;
+        height: 100%;
+        position:absolute;
+        -webkit-transform: skew(0, 4deg) translateY(calc(50vw/-12));
+        -ms-transform: skew(0, 4deg) translateY(calc(50vw/-12));
+        transform: skew(0, 4deg) translateY(calc(50vw/-12));
+        left:0;
+    }
+    
+    .news-white-bar-bottom {
+        background-color: whitesmoke;
+        width:100%;
+        height: 16%;
+        position:absolute;
+        left:0;
+        z-index: 1;
+    }
+    
+    .skyline-news {
+        display: flex;
+        flex-direction: row;
+        color: black;
+        justify-content: space-around;
+        width: 90%;
+    }
+    
+    .news-image {
+        width: 80%;
+        z-index: 999;
+        padding: 5%;
+    }
+    
+    .skyline-news-header {
+        font-size: 2.4vw;
+        font-weight: 640;
+    }
+    
+    .skyline-news-desc {
+        font-size: 1.2vw;
+    }
+    
+    
+      /* Credits */
+    
+    .credit-wrapper {
+        background: linear-gradient(rgba(22, 6, 80, 0.9), rgba(84, 53, 196, 0.9), rgba(145, 140, 216, 0.8)), url(../images/stars2.gif) repeat;
+        height: 50%;
+        padding: 8%;
+    }
+    
+    .credits-header {
+        text-align: center;
+        font-size: 2.8vw;
+        color: whitesmoke;
+        animation: cardAnimation ease 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 60%);
+    }
+    
+    .credit-button {
+        width: 17%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        border: none;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);
+        position: absolute;
+        left: 41.5%;
+    }
+    
+    .credit-link {
+        color: whitesmoke; 
+        text-decoration: none; 
+    }
+    
+    .credit-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
+    }
+    
+    .credits-blurb {
+        color: whitesmoke;
+        font-size: 1.7vw;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        text-align: center;
+    }
+    
+      /* Apply */
+    
+    .apply-wrapper {
+        background: linear-gradient(rgba(145, 140, 216, 0.8), rgba(207, 206, 221, 0.8)), url(../images/stars2.gif) repeat;
+        height: 60%;
+        padding: 7%;
+    }
+    
+    .form-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .form-head {
+        display: flex;
+        flex-direction: column; 
+        background-color: rgb(22, 6, 80,0.75);
+        margin: 2%;
+        border-radius: 100px 0 100px 0;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    }
+    
+    .form-header {
+        color: whitesmoke;
+        font-size: 2.8vw;
+        font-weight: 700;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        text-align: center;
+        padding: 1%;
+    }
+    
+    .form-text {
+        color: whitesmoke;
+        font-size: 1.5vw;
+        font-weight: 700;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%); 
+        text-align: center; 
+        padding: 1%;
+    }
+    
+    .form-embed {
+        animation: fadeInAnimation ease 5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        width: 700px; 
+    }      
+}
+
+/*
+===================================
+WEB LARGE
+===================================
+*/
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .skyline-home {
+        display: flex;
+        z-index: 0;
+        justify-content: center;
+        align-items: center;
+        background: rgb(22, 6, 80,0.75);
+        position: relative;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    }
+    
+    .home-video {
+        width: 100%;
+    }
+    
+    .skyline-home .home-text {
+        z-index: 2;
+        position: absolute;
+        color: whitesmoke;
+        font-size: 5vw;
+        bottom: 61%;
+        right: 61%;
+        font-weight: 475;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 100%);
+        font-family: optima;
+    }
+    
+    .skyline-home .home-logo {
+        z-index: 2;
+        position: absolute;
+        right: 50%;
+        bottom: 30%;
+        width: 25%;
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+    }
+    }
+    
+    
+      /* About */
+    
+    .about-wrapper {
+        background-color: whitesmoke;
+        height: 50%;
+    }
+    
+    .about-white-bar-top {
+        background-color: whitesmoke;
+        width:100%;
+        height: 85%;
+        position:absolute;
+        -webkit-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        left:0;
+        animation: whiteBarDrop ease 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes whiteBarDrop {
+        0% {
+    
+        }
+        100% {
+    
+        }
+    }
+    
+    .about-white-bar-bottom {
+        background-color: whitesmoke;
+        width:100%;
+        height: 5%;
+        position:absolute;
+        -webkit-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        transform: skew(0, -4deg) translateY(calc(50vw/-12));
+        left:0;
+        z-index: 1;
+    }
+    
+    .skyline-about {
+        display: flex;
+        flex-direction: row;
+        color: black;
+        justify-content: space-around;
+        width: 95%;
+    }
+    
+    .about-image {
+        width: 100%;
+        z-index: 999;
+        padding: 5%;
+    }
+    
+    .skyline-text {
+        width: 110%;
+        padding: 5.5%;
+        margin: 10% auto 10% auto;
+    }
+    
+    .skyline-about-header {
+        font-size: 3vw;
+        font-weight: 640;
+    }
+    
+    .skyline-about-desc {
+        font-size: 1.6vw;
+    }
+    
+    .about-button {
+        width: 13%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        border: none;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);
+        position: absolute;
+    }
+    
+    .about-link {
+        color: whitesmoke; 
+        text-decoration: none; 
+    }
+    
+    .about-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
+    }
+    
+      /* Character */
+    .character-wrapper {
+        background: linear-gradient(rgba(22, 6, 80, 0.9), rgba(84, 53, 196, 0.9), rgba(145, 140, 216, 0.8)), url(../images/stars2.gif) repeat;
+        height: 60%;
+        padding: 11%;
+    }
+    
+    .skyline-character {
+        color: black;
+        width: 75%;
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: stretch;
+        align-items: center;
+    }
+    
+    .character-image {
+        width: 200%;
+        padding: 2% 0% 0% 10%;
+    }
+    
+    .character-text {
+        width: 280%;
+        padding: 6% 0% 0% 5%;
+        color: whitesmoke;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 60%);
+    }
+    
+    .character-header {
+        font-size: 3vw;
+        font-weight: 640;
+    }
+    
+    .character-desc {
+        font-size: 1.6vw;
+    }
+    
+    .character-button {
+        width: 37%;
+        font-size: 1.5vw;
+        padding: 1.7%;
+        border: none;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);
+    }
+    
+    .character-link {
+        color: whitesmoke; 
+        text-decoration: none; 
+    }
+    
+    .character-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
+    }
+    
+      /* News */
+    
+    .news-wrapper {
+        background-color: whitesmoke;
+        height: 50%;
+        border-bottom-color: whitesmoke;
+        border-bottom-style: groove;
+        border-bottom-width: .5vw;
+    }
+    
+    .news-white-bar-top {
+        background-color: whitesmoke;
+        width:100%;
+        height: 80%;
+        position:absolute;
+        -webkit-transform: skew(0, 4deg) translateY(calc(50vw/-12));
+        -ms-transform: skew(0, 4deg) translateY(calc(50vw/-12));
+        transform: skew(0, 4deg) translateY(calc(50vw/-12));
+        left:0;
+    }
+    
+    .news-white-bar-bottom {
+        background-color: whitesmoke;
+        width:100%;
+        height: 10%;
+        position:absolute;
+        left:0;
+        z-index: 1;
+    }
+    
+    .skyline-news {
+        display: flex;
+        flex-direction: row;
+        color: black;
+        justify-content: space-around;
+        width: 95%;
+    }
+    
+    .news-image {
+        width: 80%;
+        z-index: 999;
+        padding: 5%;
+    }
+    
+    .skyline-news-header {
+        font-size: 3vw;
+        font-weight: 640;
+    }
+    
+    .skyline-news-desc {
+        font-size: 1.6vw;
+    }
+    
+    
+      /* Credits */
+    
+    .credit-wrapper {
+        background: linear-gradient(rgba(22, 6, 80, 0.9), rgba(84, 53, 196, 0.9), rgba(145, 140, 216, 0.8)), url(../images/stars2.gif) repeat;
+        height: 50%;
+        padding: 8%;
+    }
+    
+    .credits-header {
+        text-align: center;
+        font-size: 2.8vw;
+        color: whitesmoke;
+        animation: cardAnimation ease 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 60%);
+    }
+    
+    .credit-button {
+        width: 17%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        border: none;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);
+        position: absolute;
+        left: 41.5%;
+    }
+    
+    .credit-link {
+        color: whitesmoke; 
+        text-decoration: none; 
+    }
+    
+    .credit-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
+    }
+    
+    .credits-blurb {
+        color: whitesmoke;
+        font-size: 1.7vw;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        text-align: center;
+    }
+    
+      /* Apply */
+    
+    .apply-wrapper {
+        background: linear-gradient(rgba(145, 140, 216, 0.8), rgba(207, 206, 221, 0.8)), url(../images/stars2.gif) repeat;
+        height: 60%;
+        padding: 7%;
+    }
+    
+    .form-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    
+    .form-head {
+        display: flex;
+        flex-direction: column; 
+        background-color: rgb(22, 6, 80,0.75);
+        margin: 2%;
+        border-radius: 100px 0 100px 0;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    }
+    
+    .form-header {
+        color: whitesmoke;
+        font-size: 2.8vw;
+        font-weight: 700;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        text-align: center;
+        padding: 1%;
+    }
+    
+    .form-text {
+        color: whitesmoke;
+        font-size: 1.5vw;
+        font-weight: 700;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%); 
+        text-align: center; 
+        padding: 1%;
+    }
+    
+    .form-embed {
+        animation: fadeInAnimation ease 5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        width: 650px; 
+    }      
 }
 
 
@@ -375,7 +1139,7 @@ WEB SMALLER
 ===================================
 */
 
-@media only screen and (min-width: 501px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
 /* Home */
 .skyline-home {
@@ -433,15 +1197,12 @@ WEB SMALLER
 .about-wrapper {
     background-color: whitesmoke;
     height: 50%;
-    border-bottom-color: whitesmoke;
-    border-bottom-style: groove;
-    border-bottom-width: .5vw;
 }
 
 .about-white-bar-top {
     background-color: whitesmoke;
     width:100%;
-    height: 100%;
+    height: 60%;
     position:absolute;
     -webkit-transform: skew(0, -4deg) translateY(calc(50vw/-12));
     -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
@@ -464,7 +1225,7 @@ WEB SMALLER
 .about-white-bar-bottom {
     background-color: whitesmoke;
     width:100%;
-    height: 20%;
+    height: 10%;
     position:absolute;
     -webkit-transform: skew(0, -4deg) translateY(calc(50vw/-12));
     -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
@@ -478,7 +1239,7 @@ WEB SMALLER
     flex-direction: row;
     color: black;
     justify-content: space-around;
-    width: 90%;
+    width: 95%;
 }
 
 .about-image {
@@ -494,17 +1255,17 @@ WEB SMALLER
 }
 
 .skyline-about-header {
-    font-size: 2.6vw;
+    font-size: 3vw;
     font-weight: 640;
 }
 
 .skyline-about-desc {
-    font-size: 1.4vw;
+    font-size: 1.6vw;
 }
 
 .about-button {
-    width: 13%;
-    font-size: 1.5vw;
+    width: 15%;
+    font-size: 2vw;
     padding: 0.7%;
     border: none;
     color: whitesmoke;
@@ -514,7 +1275,7 @@ WEB SMALLER
     text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
     transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
     box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
-    border: 3px solid rgba(191, 186, 219, 0.904);
+    border: 2px solid rgba(191, 186, 219, 0.904);
     position: absolute;
 }
 
@@ -525,7 +1286,7 @@ WEB SMALLER
 
 .about-button:hover{
     background-color: rgba(173, 165, 223);
-    font-size: 1.55vw;
+    font-size: 2.05vw;
     cursor: pointer;
 }
 
@@ -533,7 +1294,7 @@ WEB SMALLER
 .character-wrapper {
     background: linear-gradient(rgba(22, 6, 80, 0.9), rgba(84, 53, 196, 0.9), rgba(145, 140, 216, 0.8)), url(../images/stars2.gif) repeat;
     height: 60%;
-    padding: 11%;
+    padding: 10%;
 }
 
 .skyline-character {
@@ -558,17 +1319,17 @@ WEB SMALLER
 }
 
 .character-header {
-    font-size: 2.6vw;
+    font-size: 3vw;
     font-weight: 640;
 }
 
 .character-desc {
-    font-size: 1.4vw;
+    font-size: 1.6vw;
 }
 
 .character-button {
-    width: 37%;
-    font-size: 1.5vw;
+    width: 40%;
+    font-size: 2vw;
     padding: 1.7%;
     border: none;
     color: whitesmoke;
@@ -578,7 +1339,7 @@ WEB SMALLER
     text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
     transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
     box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
-    border: 3px solid rgba(191, 186, 219, 0.904);
+    border: 2px solid rgba(191, 186, 219, 0.904);
 }
 
 .character-link {
@@ -588,7 +1349,7 @@ WEB SMALLER
 
 .character-button:hover{
     background-color: rgba(173, 165, 223);
-    font-size: 1.55vw;
+    font-size: 2.05vw;
     cursor: pointer;
 }
 
@@ -597,15 +1358,12 @@ WEB SMALLER
 .news-wrapper {
     background-color: whitesmoke;
     height: 50%;
-    border-bottom-color: whitesmoke;
-    border-bottom-style: groove;
-    border-bottom-width: .5vw;
 }
 
 .news-white-bar-top {
     background-color: whitesmoke;
     width:100%;
-    height: 100%;
+    height: 60%;
     position:absolute;
     -webkit-transform: skew(0, 4deg) translateY(calc(50vw/-12));
     -ms-transform: skew(0, 4deg) translateY(calc(50vw/-12));
@@ -616,7 +1374,7 @@ WEB SMALLER
 .news-white-bar-bottom {
     background-color: whitesmoke;
     width:100%;
-    height: 16%;
+    height: 10%;
     position:absolute;
     left:0;
     z-index: 1;
@@ -627,7 +1385,7 @@ WEB SMALLER
     flex-direction: row;
     color: black;
     justify-content: space-around;
-    width: 90%;
+    width: 95%;
 }
 
 .news-image {
@@ -637,12 +1395,12 @@ WEB SMALLER
 }
 
 .skyline-news-header {
-    font-size: 2.6vw;
+    font-size: 3vw;
     font-weight: 640;
 }
 
 .skyline-news-desc {
-    font-size: 1.4vw;
+    font-size: 1.6vw;
 }
 
 
@@ -728,7 +1486,7 @@ WEB SMALLER
 
 .form-header {
     color: whitesmoke;
-    font-size: 2.8vw;
+    font-size: 5vw;
     font-weight: 700;
     text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
     text-align: center;
@@ -737,7 +1495,7 @@ WEB SMALLER
 
 .form-text {
     color: whitesmoke;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     font-weight: 700;
     text-shadow: 0 3px 7px rgb(0 0 0 / 35%); 
     text-align: center; 
@@ -748,8 +1506,385 @@ WEB SMALLER
     animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    width: 600px;
 }
 
+}
+
+/*
+===================================
+TABLET
+===================================
+*/
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+/* Home */
+.skyline-home {
+    display: flex;
+    z-index: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgb(22, 6, 80,0.75);
+    position: relative;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+}
+
+.home-video {
+    width: 100%;
+}
+
+.skyline-home .home-text {
+    z-index: 2;
+    position: absolute;
+    color: whitesmoke;
+    font-size: 5vw;
+    bottom: 61%;
+    right: 61%;
+    font-weight: 475;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 100%);
+    font-family: optima;
+}
+
+.skyline-home .home-logo {
+    z-index: 2;
+    position: absolute;
+    right: 50%;
+    bottom: 30%;
+    width: 25%;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+}
+}
+
+
+  /* About */
+
+.about-wrapper {
+    background-color: whitesmoke;
+    height: 50%;
+}
+
+.about-white-bar-top {
+    background-color: whitesmoke;
+    width:100%;
+    height: 60%;
+    position:absolute;
+    -webkit-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+    -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+    transform: skew(0, -4deg) translateY(calc(50vw/-12));
+    left:0;
+    animation: whiteBarDrop ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes whiteBarDrop {
+    0% {
+
+    }
+    100% {
+
+    }
+}
+
+.about-white-bar-bottom {
+    background-color: whitesmoke;
+    width:100%;
+    height: 10%;
+    position:absolute;
+    -webkit-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+    -ms-transform: skew(0, -4deg) translateY(calc(50vw/-12));
+    transform: skew(0, -4deg) translateY(calc(50vw/-12));
+    left:0;
+    z-index: 1;
+}
+
+.skyline-about {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.about-image {
+    width: 100%;
+    z-index: 999;
+    padding: 5%;
+}
+
+.skyline-text {
+    width: 110%;
+    padding: 5.5%;
+    margin: 10% auto 10% auto;
+}
+
+.skyline-about-header {
+    font-size: 3vw;
+    font-weight: 640;
+}
+
+.skyline-about-desc {
+    font-size: 1.6vw;
+}
+
+.about-button {
+    width: 15%;
+    font-size: 2vw;
+    padding: 0.7%;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 2px solid rgba(191, 186, 219, 0.904);
+    position: absolute;
+}
+
+.about-link {
+    color: whitesmoke; 
+    text-decoration: none; 
+}
+
+.about-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 2.05vw;
+    cursor: pointer;
+}
+
+  /* Character */
+.character-wrapper {
+    background: linear-gradient(rgba(22, 6, 80, 0.9), rgba(84, 53, 196, 0.9), rgba(145, 140, 216, 0.8)), url(../images/stars2.gif) repeat;
+    height: 60%;
+    padding: 10%;
+}
+
+.skyline-character {
+    color: black;
+    width: 75%;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.character-image {
+    width: 175%;
+    padding: 2% 0% 0% 10%;
+}
+
+.character-text {
+    width: 280%;
+    padding: 6% 0% 0% 5%;
+    color: whitesmoke;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 60%);
+}
+
+.character-header {
+    font-size: 3vw;
+    font-weight: 640;
+}
+
+.character-desc {
+    font-size: 1.6vw;
+}
+
+.character-button {
+    width: 40%;
+    font-size: 2vw;
+    padding: 1.7%;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 2px solid rgba(191, 186, 219, 0.904);
+}
+
+.character-link {
+    color: whitesmoke; 
+    text-decoration: none; 
+}
+
+.character-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 2.05vw;
+    cursor: pointer;
+}
+
+  /* News */
+
+.news-wrapper {
+    background-color: whitesmoke;
+    height: 50%;
+}
+
+.news-white-bar-top {
+    background-color: whitesmoke;
+    width:100%;
+    height: 60%;
+    position:absolute;
+    -webkit-transform: skew(0, 4deg) translateY(calc(50vw/-12));
+    -ms-transform: skew(0, 4deg) translateY(calc(50vw/-12));
+    transform: skew(0, 4deg) translateY(calc(50vw/-12));
+    left:0;
+}
+
+.news-white-bar-bottom {
+    background-color: whitesmoke;
+    width:100%;
+    height: 7%;
+    position:absolute;
+    left:0;
+    z-index: 1;
+}
+
+.skyline-news {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.news-image {
+    width: 80%;
+    z-index: 999;
+    padding: 5%;
+}
+
+.skyline-news-header {
+    font-size: 3vw;
+    font-weight: 640;
+}
+
+.skyline-news-desc {
+    font-size: 1.6vw;
+}
+
+
+  /* Credits */
+
+.credit-wrapper {
+    background: linear-gradient(rgba(22, 6, 80, 0.9), rgba(84, 53, 196, 0.9), rgba(145, 140, 216, 0.8)), url(../images/stars2.gif) repeat;
+    height: 50%;
+    padding: 10%;
+}
+
+.credits-header {
+    text-align: center;
+    font-size: 2.8vw;
+    color: whitesmoke;
+    animation: cardAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 60%);
+}
+
+.credit-button {
+    width: 17%;
+    font-size: 1.5vw;
+    padding: 0.7%;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 3px solid rgba(191, 186, 219, 0.904);
+    position: absolute;
+    left: 41.5%;
+}
+
+.credit-link {
+    color: whitesmoke; 
+    text-decoration: none; 
+}
+
+.credit-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 1.55vw;
+    cursor: pointer;
+}
+
+.credits-blurb {
+    color: whitesmoke;
+    font-size: 1.7vw;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    text-align: center;
+}
+
+  /* Apply */
+
+.apply-wrapper {
+    background: linear-gradient(rgba(145, 140, 216, 0.8), rgba(207, 206, 221, 0.8)), url(../images/stars2.gif) repeat;
+    height: 60%;
+    padding: 7%;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.form-head {
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(22, 6, 80,0.75);
+    margin: 2%;
+    border-radius: 100px 0 100px 0;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+}
+
+.form-header {
+    color: whitesmoke;
+    font-size: 5vw;
+    font-weight: 700;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    text-align: center;
+    padding: 1%;
+}
+
+.form-text {
+    color: whitesmoke;
+    font-size: 1.7vw;
+    font-weight: 700;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%); 
+    text-align: center; 
+    padding: 1%;
+}
+
+.form-embed {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 550px;
+}
 }
 
 /*
@@ -758,7 +1893,7 @@ MOBILE
 ===================================
 */
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 479px) {
 
 /* Home */
 .skyline-home {
@@ -1082,7 +2217,7 @@ MOBILE
 .apply-wrapper {
     background: linear-gradient(rgba(145, 140, 216, 0.8), rgba(207, 206, 221, 0.8)), url(../images/stars2.gif) repeat;
     height: 60%;
-    padding: 7%;
+    padding: 13% 0% 0% 0%;
 }
 
 .form-wrapper {
@@ -1106,7 +2241,7 @@ MOBILE
 
 .form-header {
     color: whitesmoke;
-    font-size: 2.8vw;
+    font-size: 7vw;
     font-weight: 700;
     text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
     text-align: center;
@@ -1115,16 +2250,17 @@ MOBILE
 
 .form-text {
     color: whitesmoke;
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     font-weight: 700;
     text-shadow: 0 3px 7px rgb(0 0 0 / 35%); 
     text-align: center; 
-    padding: 1%;
+    padding: 2.5%;
 }
 
 .form-embed {
     animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    width: 370px;
 }
 }

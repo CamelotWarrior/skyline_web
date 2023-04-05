@@ -1,6 +1,7 @@
 {
   "name": "skyline-web",
   "version": "0.1.0",
+  "homepage": "https://skylinerem.co",
   "private": true,
   "dependencies": {
     "@tanem/react-nprogress": "^5.0.32",

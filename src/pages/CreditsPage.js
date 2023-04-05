@@ -23,7 +23,7 @@ function handleCredits(e) {
 return (
 <>    
         <div id="credits" className="credit-wrapper">
-            <h1 className="credits-header">CREDITS</h1>
+            <h1 className="credits-page-header">CREDITS</h1>
             <div className="credits-menu">
             {creditButtons && creditButtons.map((type, index) => (
                 <div className="credit-buttons-wrapper">
