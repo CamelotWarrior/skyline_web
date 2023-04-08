@@ -453,12 +453,12 @@ export const creditsAll = [
     {
         id: 46,
         name: "Zenthrack",
-        image: require("../../images/credit-icons/placeholder.png"),
+        image: require("../../images/credit-icons/zenthrack.png"),
         role: "voice",
         twitter: "none",
         twitch: "none",
         youtube: "none",
-        website: "none",
+        website: "https://linktr.ee/zenthrack",
     },
     {
         id: 47,
