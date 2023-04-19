@@ -340,6 +340,7 @@ export const creditsAll = [
         youtube: "none",
         website: "none",
     },
+    /*
     {
         id: 35,
         name: "TheTrashFox",
@@ -350,6 +351,7 @@ export const creditsAll = [
         youtube: "none",
         website: "https://thetrashfox.carrd.co/",
     },
+    */
     {
         id: 36,
         name: "Jokerr",
