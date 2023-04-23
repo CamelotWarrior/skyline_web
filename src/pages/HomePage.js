@@ -1,7 +1,7 @@
 import Home from '../components/Home';
 import About from '../components/About';
 import Character from '../components/Character';
-import News from '../components/News';
+import News from '../components/news';
 import {Link} from 'react-router-dom';
 
 import '../styles/home.css';

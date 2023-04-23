@@ -89,7 +89,7 @@ export const creditsAll = [
         name: "MarioMania",
         role: "content",
     },
-    {
+    /*{
         id: 10,
         image: require("../../images/credit-icons/naya.png"),
         twitch: "https://www.twitch.tv/naya",
@@ -98,7 +98,7 @@ export const creditsAll = [
         youtube: "none",
         name: "Naya",
         role: "content",
-    },
+    },*/
     {
         id: 11,
         image: require("../../images/credit-icons/danofalltrades.png"),
@@ -486,7 +486,7 @@ export const creditsAll = [
         id: 49,
         name: "DeadedAndZen",
         image: require("../../images/credit-icons/placeholder.png"),
-        role: "voice",
+        role: "backstage",
         twitter: "none",
         twitch: "none",
         youtube: "none",
@@ -496,7 +496,7 @@ export const creditsAll = [
         id: 50,
         name: "KKSkitz",
         image: require("../../images/credit-icons/placeholder.png"),
-        role: "voice",
+        role: "backstage",
         twitter: "none",
         twitch: "none",
         youtube: "none",
@@ -506,7 +506,7 @@ export const creditsAll = [
         id: 51,
         name: "CelestialAngel0",
         image: require("../../images/credit-icons/placeholder.png"),
-        role: "voice",
+        role: "backstage",
         twitter: "none",
         twitch: "none",
         youtube: "none",
