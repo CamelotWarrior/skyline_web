@@ -1606,7 +1606,7 @@ MOBILE
 }
 
 .nav-image {
-  width: 13%;
+  width: 12%;
   padding: 0.2% 2% 0.2% 0.2%;
   margin-left: 1%;
 }
@@ -1622,7 +1622,7 @@ MOBILE
   padding-top: 5px;
   padding-bottom: 1px;
   z-index: 10;
-  font-size: 8vw;
+  font-size: 7vw;
   align-self: center;
 }
 

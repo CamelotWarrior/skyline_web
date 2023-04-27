@@ -512,6 +512,16 @@ export const creditsAll = [
         youtube: "none",
         website: "https://celestialangel0.carrd.co/",
     },
+    {
+        id: 52,
+        name: "ZandyrWolf",
+        image: require("../../images/credit-icons/ZandyrWolf.png"),
+        role: "voice",
+        twitter: "https://twitter.com/ZandyrWolfVA",
+        twitch: "none",
+        youtube: "https://www.youtube.com/channel/UC4NrIejmSe9AFBjCTAUsNzw",
+        website: "none",
+    },
 
 ];
 

@@ -24,9 +24,9 @@ MACBOOK
         z-index: 2;
         position: absolute;
         color: whitesmoke;
-        font-size: 5vw;
-        bottom: 57%;
-        right: 53%;
+        font-size: 4vw;
+        bottom: 67%;
+        right: 55%;
         font-weight: 475;
         animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
@@ -38,12 +38,78 @@ MACBOOK
     .skyline-home .home-logo {
         z-index: 2;
         position: absolute;
-        right: 66%;
-        bottom: 26%;
+        right: 51%;
+        bottom: 34%;
         width: 25%;
         animation: fadeInAnimation ease 2s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
+    }
+    
+    .trailer-button {
+        position: absolute;
+        width: 13%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        bottom: 25%;
+        left: 30%;
+        border: none;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);    
+    }
+    
+    .trailer-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
+    }
+    
+    .trailer-overlay{
+        z-index: 999;
+        position: fixed;
+    
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: rgba(207, 206, 221, 0.8);   
+    }
+    
+    .trailerVideo{
+        position:absolute;
+        bottom: 24%;
+        right: 25%;
+        width: 53.5%;
+        height: 48%;
+    }
+    
+    .close-button{
+        position: absolute;
+        width: 3.5%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        border: none;
+        bottom: 70%;
+        right: 20%;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);  
+    }
+    
+    .close-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
     }
     
     @keyframes fadeInAnimation {
@@ -403,9 +469,9 @@ iMAC
         z-index: 2;
         position: absolute;
         color: whitesmoke;
-        font-size: 5vw;
-        bottom: 59%;
-        right: 53%;
+        font-size: 4vw;
+        bottom: 67%;
+        right: 55%;
         font-weight: 475;
         animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
@@ -417,12 +483,78 @@ iMAC
     .skyline-home .home-logo {
         z-index: 2;
         position: absolute;
-        right: 66%;
-        bottom: 27%;
+        right: 51%;
+        bottom: 34%;
         width: 25%;
         animation: fadeInAnimation ease 2s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
+    }
+    
+    .trailer-button {
+        position: absolute;
+        width: 13%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        bottom: 25%;
+        left: 30%;
+        border: none;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);    
+    }
+    
+    .trailer-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
+    }
+    
+    .trailer-overlay{
+        z-index: 999;
+        position: fixed;
+    
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: rgba(207, 206, 221, 0.8);   
+    }
+    
+    .trailerVideo{
+        position:absolute;
+        bottom: 22%;
+        right: 25%;
+        width: 53.5%;
+        height: 53%;
+    }
+    
+    .close-button{
+        position: absolute;
+        width: 3.5%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        border: none;
+        bottom: 75%;
+        right: 20%;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);  
+    }
+    
+    .close-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
     }
     
     @keyframes fadeInAnimation {
@@ -782,9 +914,9 @@ DESKTOP LARGE
     z-index: 2;
     position: absolute;
     color: whitesmoke;
-    font-size: 5vw;
-    bottom: 61%;
-    right: 45%;
+    font-size: 4vw;
+    bottom: 67%;
+    right: 55%;
     font-weight: 475;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -796,12 +928,78 @@ DESKTOP LARGE
 .skyline-home .home-logo {
     z-index: 2;
     position: absolute;
-    right: 58%;
-    bottom: 29%;
+    right: 51%;
+    bottom: 34%;
     width: 25%;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.trailer-button {
+    position: absolute;
+    width: 13%;
+    font-size: 1.5vw;
+    padding: 0.7%;
+    bottom: 25%;
+    left: 30%;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 3px solid rgba(191, 186, 219, 0.904);    
+}
+
+.trailer-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 1.55vw;
+    cursor: pointer;
+}
+
+.trailer-overlay{
+    z-index: 999;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(207, 206, 221, 0.8);   
+}
+
+.trailerVideo{
+    position:absolute;
+    bottom: 20%;
+    right: 25%;
+    width: 53.5%;
+    height: 60%;
+}
+
+.close-button{
+    position: absolute;
+    width: 3.5%;
+    font-size: 1.5vw;
+    padding: 0.7%;
+    border: none;
+    bottom: 75%;
+    right: 20%;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 3px solid rgba(191, 186, 219, 0.904);  
+}
+
+.close-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 1.55vw;
+    cursor: pointer;
 }
 
 @keyframes fadeInAnimation {
@@ -1159,9 +1357,9 @@ DESKTOP
         z-index: 2;
         position: absolute;
         color: whitesmoke;
-        font-size: 5vw;
-        bottom: 61%;
-        right: 45%;
+        font-size: 4vw;
+        bottom: 67%;
+        right: 55%;
         font-weight: 475;
         animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
@@ -1174,11 +1372,77 @@ DESKTOP
         z-index: 2;
         position: absolute;
         right: 57%;
-        bottom: 29%;
+        bottom: 35%;
         width: 25%;
         animation: fadeInAnimation ease 2s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
+    }
+
+    .trailer-button {
+        position: absolute;
+        width: 13%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        bottom: 25%;
+        left: 25%;
+        border: none;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);    
+    }
+    
+    .trailer-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
+    }
+    
+    .trailer-overlay{
+        z-index: 999;
+        position: fixed;
+    
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: rgba(207, 206, 221, 0.8);   
+    }
+    
+    .trailerVideo{
+        position:absolute;
+        bottom: 20%;
+        right: 25%;
+        width: 53.5%;
+        height: 56%;
+    }
+    
+    .close-button{
+        position: absolute;
+        width: 3.5%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        border: none;
+        bottom: 75%;
+        right: 20%;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 3px solid rgba(191, 186, 219, 0.904);  
+    }
+    
+    .close-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
     }
     
     @keyframes fadeInAnimation {
@@ -1537,9 +1801,9 @@ WEB LARGE
         z-index: 2;
         position: absolute;
         color: whitesmoke;
-        font-size: 5vw;
-        bottom: 56%;
-        right: 50%;
+        font-size: 4vw;
+        bottom: 66%;
+        right: 55%;
         font-weight: 475;
         animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
@@ -1551,12 +1815,78 @@ WEB LARGE
     .skyline-home .home-logo {
         z-index: 2;
         position: absolute;
-        right: 63%;
-        bottom: 25%;
+        right: 56%;
+        bottom: 33%;
         width: 25%;
         animation: fadeInAnimation ease 2s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
+    }
+
+    .trailer-button {
+        position: absolute;
+        width: 13%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        bottom: 25%;
+        left: 24%;
+        border: none;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 2px solid rgba(191, 186, 219, 0.904);    
+    }
+    
+    .trailer-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
+    }
+    
+    .trailer-overlay{
+        z-index: 999;
+        position: fixed;
+    
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: rgba(207, 206, 221, 0.8);   
+    }
+    
+    .trailerVideo{
+        position:absolute;
+        bottom: 20%;
+        right: 25%;
+        width: 53.5%;
+        height: 56%;
+    }
+    
+    .close-button{
+        position: absolute;
+        width: 3.5%;
+        font-size: 1.5vw;
+        padding: 0.7%;
+        border: none;
+        bottom: 75%;
+        right: 20%;
+        color: whitesmoke;
+        background-color: rgb(145, 140, 216);
+        border-radius: 500px;
+        font-weight: 550;
+        text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+        transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+        box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+        border: 2px solid rgba(191, 186, 219, 0.904);  
+    }
+    
+    .close-button:hover{
+        background-color: rgba(173, 165, 223);
+        font-size: 1.55vw;
+        cursor: pointer;
     }
     
     @keyframes fadeInAnimation {
@@ -1918,9 +2248,9 @@ WEB SMALLER
     z-index: 2;
     position: absolute;
     color: whitesmoke;
-    font-size: 5vw;
-    bottom: 58%;
-    right: 49%;
+    font-size: 4vw;
+    bottom: 67%;
+    right: 55%;
     font-weight: 475;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -1932,12 +2262,78 @@ WEB SMALLER
 .skyline-home .home-logo {
     z-index: 2;
     position: absolute;
-    right: 62%;
-    bottom: 26%;
+    right: 56%;
+    bottom: 34%;
     width: 25%;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.trailer-button {
+    position: absolute;
+    width: 13%;
+    font-size: 1.5vw;
+    padding: 0.7%;
+    bottom: 25%;
+    left: 24%;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 2px solid rgba(191, 186, 219, 0.904);    
+}
+
+.trailer-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 1.55vw;
+    cursor: pointer;
+}
+
+.trailer-overlay{
+    z-index: 999;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(207, 206, 221, 0.8);   
+}
+
+.trailerVideo{
+    position:absolute;
+    bottom: 20%;
+    right: 25%;
+    width: 53.5%;
+    height: 56%;
+}
+
+.close-button{
+    position: absolute;
+    width: 3.5%;
+    font-size: 1.5vw;
+    padding: 0.7%;
+    border: none;
+    bottom: 75%;
+    right: 20%;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 2px solid rgba(191, 186, 219, 0.904);  
+}
+
+.close-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 1.55vw;
+    cursor: pointer;
 }
 
 @keyframes fadeInAnimation {
@@ -2295,9 +2691,9 @@ TABLET
     z-index: 2;
     position: absolute;
     color: whitesmoke;
-    font-size: 5vw;
-    bottom: 55%;
-    right: 50%;
+    font-size: 4vw;
+    bottom: 67%;
+    right: 55%;
     font-weight: 475;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -2309,12 +2705,78 @@ TABLET
 .skyline-home .home-logo {
     z-index: 2;
     position: absolute;
-    right: 63%;
-    bottom: 23%;
+    right: 56%;
+    bottom: 34%;
     width: 25%;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.trailer-button {
+    position: absolute;
+    width: 13%;
+    font-size: 1.5vw;
+    padding: 0.7%;
+    bottom: 25%;
+    left: 24%;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 2px solid rgba(191, 186, 219, 0.904);    
+}
+
+.trailer-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 1.55vw;
+    cursor: pointer;
+}
+
+.trailer-overlay{
+    z-index: 999;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(207, 206, 221, 0.8);   
+}
+
+.trailerVideo{
+    position:absolute;
+    bottom: 22%;
+    right: 25%;
+    width: 53.5%;
+    height: 50%;
+}
+
+.close-button{
+    position: absolute;
+    width: 3.5%;
+    font-size: 1.5vw;
+    padding: 0.7%;
+    border: none;
+    bottom: 67%;
+    right: 20%;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 2px solid rgba(191, 186, 219, 0.904);  
+}
+
+.close-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 1.55vw;
+    cursor: pointer;
 }
 
 @keyframes fadeInAnimation {
@@ -2672,9 +3134,9 @@ MOBILE
     z-index: 2;
     position: absolute;
     color: whitesmoke;
-    font-size: 5.5vw;
-    bottom: 52%;
-    right: 48%;
+    font-size: 4vw;
+    bottom: 60%;
+    right: 55%;
     font-weight: 475;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -2686,12 +3148,79 @@ MOBILE
 .skyline-home .home-logo {
     z-index: 2;
     position: absolute;
-    right: 64%;
-    bottom: 17%;
-    width: 27%;
+    right: 56%;
+    bottom: 25%;
+    width: 25%;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.trailer-button {
+    position: absolute;
+    visibility: hidden;
+    width: 13%;
+    font-size: 1.5vw;
+    padding: 0.7%;
+    bottom: 25%;
+    left: 24%;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 2px solid rgba(191, 186, 219, 0.904);    
+}
+
+.trailer-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 1.55vw;
+    cursor: pointer;
+}
+
+.trailer-overlay{
+    z-index: 999;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(207, 206, 221, 0.8);   
+}
+
+.trailerVideo{
+    position:absolute;
+    bottom: 22%;
+    right: 25%;
+    width: 53.5%;
+    height: 50%;
+}
+
+.close-button{
+    position: absolute;
+    width: 3.5%;
+    font-size: 1.5vw;
+    padding: 0.7%;
+    border: none;
+    bottom: 67%;
+    right: 20%;
+    color: whitesmoke;
+    background-color: rgb(145, 140, 216);
+    border-radius: 500px;
+    font-weight: 550;
+    text-shadow: 0 3px 7px rgb(0 0 0 / 35%);
+    transition: color, font-size .25s ease-out 25ms, .25s ease-out 25ms;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
+    border: 2px solid rgba(191, 186, 219, 0.904);  
+}
+
+.close-button:hover{
+    background-color: rgba(173, 165, 223);
+    font-size: 1.55vw;
+    cursor: pointer;
 }
 
 @keyframes fadeInAnimation {
