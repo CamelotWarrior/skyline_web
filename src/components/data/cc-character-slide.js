@@ -17,10 +17,10 @@ export const ccSlide = [
     },
     {
         id: 3,
-        image: require("../../images/splash/sil-3.png"),
-        blurb: "No information about this Traveler can be found at this time.",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/marshie-splash.png"),
+        blurb: "Marshie is a friendly fox Animin with enough kindness in her heart for everyone! She may be a bit ditsy but she always has good intentions behind what she does. She believes there’s a little good in everyone, even in the cruelest of people.",
+        name: "MARSHIE",
+        content: 'MarshieMonarchLive',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {
