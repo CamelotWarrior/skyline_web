@@ -1,16 +1,16 @@
 export const ccSlide = [
     {
         id: 1,
-        image: require("../../images/splash/sil-1.png"),
-        blurb: "???",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/rex-splash.png"),
+        blurb: "Rex is a mischievous and energetic Dread that wields a rare and thaumaturgic magic gauntlet. Being brought into this world as a pirate has taught Rex one thing; always look out for number one—yourself. As such, his biggest goal is to have as much fun as possible and do whatever he wants!",
+        name: "REX",
+        content: 'rexiipher',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {
         id: 2,
         image: require("../../images/splash/sil-2.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -18,7 +18,7 @@ export const ccSlide = [
     {
         id: 3,
         image: require("../../images/splash/sil-3.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -26,7 +26,7 @@ export const ccSlide = [
     {
         id: 4,
         image: require("../../images/splash/sil-4.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -34,7 +34,7 @@ export const ccSlide = [
     {
         id: 5,
         image: require("../../images/splash/sil-5.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -42,7 +42,7 @@ export const ccSlide = [
     {
         id: 6,
         image: require("../../images/splash/sil-6.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -50,7 +50,7 @@ export const ccSlide = [
     {
         id: 7,
         image: require("../../images/splash/sil-7.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -58,7 +58,7 @@ export const ccSlide = [
     {
         id: 8,
         image: require("../../images/splash/sil-8.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -66,7 +66,7 @@ export const ccSlide = [
     {
         id: 9,
         image: require("../../images/splash/sil-9.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -74,7 +74,7 @@ export const ccSlide = [
     {
         id: 10,
         image: require("../../images/splash/sil-10.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -82,7 +82,7 @@ export const ccSlide = [
     {
         id: 11,
         image: require("../../images/splash/sil-11.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -90,7 +90,7 @@ export const ccSlide = [
     {
         id: 12,
         image: require("../../images/splash/sil-12.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
@@ -98,17 +98,9 @@ export const ccSlide = [
     {
         id: 13,
         image: require("../../images/splash/sil-13.png"),
-        blurb: "???",
+        blurb: "No information about this Traveler can be found at this time.",
         name: "???",
         content: '???',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
-    /*{
-        id: 14,
-        image: require("../../images/splash/sil-14.png"),
-        blurb: "???",
-        name: "???",
-        content: '???',
-        alt: "Art by CandyQueen01 and MarshieMonarch"
-    },*/
 ]

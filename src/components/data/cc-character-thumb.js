@@ -1,8 +1,8 @@
 export const ccSlideThumb = [
     {
         id: 1,
-        image: require('../../images/splash/sil-1-thumb.png'),
-        name: '???',
+        image: require('../../images/splash/rex-splash-thumb.png'),
+        name: 'REX',
         alt: 'Art by CandyQueen01 and MarshieMonarch'
     },
     {
