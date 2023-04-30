@@ -65,10 +65,10 @@ export const ccSlide = [
     },
     {
         id: 9,
-        image: require("../../images/splash/sil-9.png"),
-        blurb: "No information about this Traveler can be found at this time.",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/chris-splash.png"),
+        blurb: "Chris is a humorous guy who likes to break the silence with jokes a lot. He has always wanted to explore the world and see what's out there, all to his heart's delight. Though his cowardly nature does on occasion get him into trouble with allies and foes.",
+        name: "CHRIS",
+        content: 'ChrisNocturne_',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {
