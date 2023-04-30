@@ -41,10 +41,10 @@ export const ccSlide = [
     },
     {
         id: 6,
-        image: require("../../images/splash/sil-6.png"),
-        blurb: "No information about this Traveler can be found at this time.",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/cam-splash.png"),
+        blurb: "Cam may be a Cryo Angel, but that doesn't make her cold-hearted. Her kindness and thoughtfulness towards others can thaw even the coldest of people.",
+        name: "CAM",
+        content: 'TheCamelotWarrior',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {
