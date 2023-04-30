@@ -57,10 +57,10 @@ export const ccSlide = [
     },
     {
         id: 8,
-        image: require("../../images/splash/sil-8.png"),
-        blurb: "No information about this Traveler can be found at this time.",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/mario-splash.png"),
+        blurb: "Mario is a new Traveler in the world of Rem! What adventures will this Traveler embark on?",
+        name: "MARIO",
+        content: 'MarioMania',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {
