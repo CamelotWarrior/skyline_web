@@ -25,10 +25,10 @@ export const ccSlide = [
     },
     {
         id: 4,
-        image: require("../../images/splash/sil-4.png"),
-        blurb: "No information about this Traveler can be found at this time.",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/swan-splash.png"),
+        blurb: "Swan is an idealist adrift in uncertain waters, so she’s always thinking, wondering, and panicking for one reason or another. At times it’s difficult for her to fully realize her ambitions, but even a ripple can make waves. The rest is sure to follow.",
+        name: "SWAN",
+        content: 'SwanSorceress',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {
