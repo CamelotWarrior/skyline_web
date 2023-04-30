@@ -49,10 +49,10 @@ export const ccSlide = [
     },
     {
         id: 7,
-        image: require("../../images/splash/sil-7.png"),
-        blurb: "No information about this Traveler can be found at this time.",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/justin-splash.png"),
+        blurb: "Meet Justin! A natural born leader with an immense hunger for justice! Don't let his charming face fool you, you could become his next target if you cross him or his dear friends...",
+        name: "JUSTIN",
+        content: 'YouCantJustice',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {

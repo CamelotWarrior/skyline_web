@@ -37,8 +37,8 @@ export const ccSlideThumb = [
     },
     {
         id: 7,
-        image: require('../../images/splash/sil-7-thumb.png'),
-        name: '???',
+        image: require('../../images/splash/justin-splash-thumb.png'),
+        name: 'JUSTIN',
         alt: 'Art by CandyQueen01 and MarshieMonarch'
     },
     {
