@@ -9,10 +9,10 @@ export const ccSlide = [
     },
     {
         id: 2,
-        image: require("../../images/splash/sil-2.png"),
-        blurb: "No information about this Traveler can be found at this time.",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/lilee-splash.png"),
+        blurb: "Lilee is a rambunctious, and hot-headed individual who is always up to some crazy antics. Despite being fiercely loyal, her shenanigans have a tendency to cause trouble for both herself and her friends. This aside, don’t be fooled by her innocent appearance- one insult and you might just wind up on the other end of her fist.",
+        name: "LILEE",
+        content: 'Lilee201',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {
