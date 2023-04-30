@@ -61,8 +61,8 @@ export const ccSlideThumb = [
     },
     {
         id: 11,
-        image: require('../../images/splash/sil-11-thumb.png'),
-        name: '???',
+        image: require('../../images/splash/nova-splash-thumb.png'),
+        name: 'NOVA',
         alt: 'Art by CandyQueen01 and MarshieMonarch'
     },
     {

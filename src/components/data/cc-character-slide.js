@@ -81,10 +81,10 @@ export const ccSlide = [
     },
     {
         id: 11,
-        image: require("../../images/splash/sil-11.png"),
-        blurb: "No information about this Traveler can be found at this time.",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/nova-splash.png"),
+        blurb: "Starved by a lack of purpose in the real world, Nova falls asleep wishing she can start life over again, instead when she opens her eyes once more, she finds herself with angel wings while crash landing into REM. Now, it seems a new journey awaits her.",
+        name: "NOVA",
+        content: 'NovaDoesGaming',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {

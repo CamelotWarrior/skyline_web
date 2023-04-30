@@ -1453,6 +1453,7 @@ TABLET
         margin: auto;
         margin-right: 10px;
         margin-left: 10px;
+        visibility: hidden;
     }
     
     
@@ -1694,6 +1695,7 @@ MOBILE
         margin: auto;
         margin-right: 10px;
         margin-left: 10px;
+        visibility: hidden;
     }
     
     
