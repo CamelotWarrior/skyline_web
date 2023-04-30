@@ -73,10 +73,10 @@ export const ccSlide = [
     },
     {
         id: 10,
-        image: require("../../images/splash/sil-10.png"),
-        blurb: "No information about this Traveler can be found at this time.",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/dan-splash.png"),
+        blurb: "Awkwardly charming, and a free spirit, Dan is always on the lookout for ways to grow and learn new things…even if it’s against his better judgment. He lives for the thrill of new adventures, so when fate provides him an opportunity in a world unlike his own, he begins to sow the seeds of a new life. ",
+        name: "DAN",
+        content: 'DanOfAllTradesLive',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {
