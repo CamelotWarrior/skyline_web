@@ -25,8 +25,8 @@ export const ccSlideThumb = [
     },
     {
         id: 5,
-        image: require('../../images/splash/sil-5-thumb.png'),
-        name: '???',
+        image: require('../../images/splash/oveq-splash-thumb.png'),
+        name: 'OVEQ',
         alt: 'Art by CandyQueen01 and MarshieMonarch'
     },
     {

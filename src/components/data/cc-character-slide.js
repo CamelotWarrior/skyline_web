@@ -33,10 +33,10 @@ export const ccSlide = [
     },
     {
         id: 5,
-        image: require("../../images/splash/sil-5.png"),
-        blurb: "No information about this Traveler can be found at this time.",
-        name: "???",
-        content: '???',
+        image: require("../../images/splash/oveq-splash.png"),
+        blurb: "Oveq is the ever-charming and classic adventuring hero- even if he doesn't realize it yet. In the meantime though? He's content just living a normal life in a fantastical world.",
+        name: "OVEQ",
+        content: 'OveqLIVE',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
     {
