@@ -24,6 +24,9 @@ export default function Footer() {
             <a href="https://www.reddit.com/user/SkylineRem" target="_blank" className="footer-links" rel="noreferrer">
                 <img src={require("../images/socials/reddit.png")} className="footer-icon"  alt="Reddit"/>
             </a>
+            <a href="https://www.patreon.com/SkylineRem" target="_blank" className="footer-links" rel="noreferrer">
+                <img src={require("../images/socials/patreon.png")} className="footer-icon"  alt="Patreon"/>
+            </a>
             </div>
         </div> 
     )

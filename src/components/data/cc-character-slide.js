@@ -100,7 +100,7 @@ export const ccSlide = [
         image: require("../../images/splash/ghosty-splash.png"),
         blurb: "Ghosty is a little under-average thinker whose mind always seems to conjure something about food. Definitely don't trust them in jeopardy!",
         name: "GHOSTY",
-        content: 'GhostyKnees',
+        content: 'Ghostyknees',
         alt: "Art by CandyQueen01 and MarshieMonarch"
     },
 ]
