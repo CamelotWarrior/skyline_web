@@ -1,4 +1,9 @@
 import './styles/App.css';
+import './styles/credit.css';
+import './styles/characters.css';
+import './styles/home.css';
+import './styles/news.css';
+import './styles/about.css';
 import Layout from './pages/Layout';
 import ScrollToTop from './components/services/ScrollToTop';
 import LoadingBar from 'react-top-loading-bar';
