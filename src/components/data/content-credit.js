@@ -259,7 +259,7 @@ export const creditsAll = [
         youtube: "none",
         website: "https://linktr.ee/eerielupin?fbclid=PAAaY2J-q1HXKuirRSZHR1LuFGW_zI-LAsSjDdynplGzOMStzO30xGFwIRSms",
     },
-    {
+    /*{
         id: 27,
         name: "EzriUnlucky",
         image: require("../../images/credit-icons/ezriunlucky.png"),
@@ -268,7 +268,7 @@ export const creditsAll = [
         twitch: "none",
         youtube: "none",
         website: "none",
-    },
+    },*/
     {
         id: 28,
         name: "YukiBlaze",
@@ -299,7 +299,7 @@ export const creditsAll = [
         youtube: "none",
         website: "none",
     },
-    {
+    /*{
         id: 31,
         name: "KIBA100",
         image: require("../../images/credit-icons/kiba100.png"),
@@ -308,7 +308,7 @@ export const creditsAll = [
         twitch: "https://www.twitch.tv/kiba_the_baowl",
         youtube: "none",
         website: "none",
-    },
+    },*/
     {
         id: 32,
         name: "yggdrasilsdew",
@@ -557,8 +557,8 @@ export const creditsAll = [
         name: "Louie661",
         image: require("../../images/credit-icons/placeholder.png"),
         role: "voice",
-        twitter: "none",
-        twitch: "none",
+        twitter: "https://twitter.com/fps_louie?s=21&t=UgE0G2i8jKUCBsNP47psWA",
+        twitch: "https://www.twitch.tv/louie661",
         youtube: "none",
         website: "none",
     },
