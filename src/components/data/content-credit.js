@@ -89,16 +89,6 @@ export const creditsAll = [
         name: "MarioMania",
         role: "content",
     },
-    /*{
-        id: 10,
-        image: require("../../images/credit-icons/naya.png"),
-        twitch: "https://www.twitch.tv/naya",
-        website: "https://naya.uwu.ai/",
-        twitter: "https://www.twitter.com/nayaVT",
-        youtube: "none",
-        name: "Naya",
-        role: "content",
-    },*/
     {
         id: 11,
         image: require("../../images/credit-icons/danofalltrades.png"),
@@ -134,7 +124,7 @@ export const creditsAll = [
         image: require("../../images/credit-icons/ghostyknees.png"),
         twitch: "https://twitch.tv/ghostyknees",
         youtube: "none",
-        website: "none",
+        website: "https://ghostyknees.carrd.co/",
         twitter: "https://twitter.com/Ghostyknees",
         name: "Ghostyknees",
         role: "content",
@@ -187,7 +177,7 @@ export const creditsAll = [
         twitter: "https://twitter.com/flamespirit99",
         twitch: "none",
         youtube: "none",
-        website: "none",
+        website: "https://flamespirit.carrd.co/",
     },
     {
         id: 20,
@@ -197,18 +187,8 @@ export const creditsAll = [
         twitter: "https://twitter.com/mint__owo",
         twitch: "none",
         youtube: "none",
-        website: "none",
+        website: "https://mintowo.carrd.co/",
     },
-    /*{
-        id: 21,
-        name: "danidotastrid",
-        image: require("../../images/credit-icons/danidotastrid.png"),
-        role: "backstage",
-        twitter: "https://www.twitter.com/danidotastrid",
-        twitch: "https://twitch.tv/danidotastrid",
-        youtube: "https://www.youtube.com/c/danidotastrid",
-        website: "https://danidotastrid.carrd.co/",
-    },*/
     {
         id: 22,
         name: "Sinitar",
@@ -217,7 +197,7 @@ export const creditsAll = [
         twitter: "none",
         twitch: "none",
         youtube: "none",
-        website: "https://itssinitar.carrd.co/",
+        website: "https://sinitar.co/",
     },
     {
         id: 23,
@@ -259,16 +239,6 @@ export const creditsAll = [
         youtube: "none",
         website: "https://linktr.ee/eerielupin?fbclid=PAAaY2J-q1HXKuirRSZHR1LuFGW_zI-LAsSjDdynplGzOMStzO30xGFwIRSms",
     },
-    /*{
-        id: 27,
-        name: "EzriUnlucky",
-        image: require("../../images/credit-icons/ezriunlucky.png"),
-        role: "backstage",
-        twitter: "https://twitter.com/EzriUnlucky",
-        twitch: "none",
-        youtube: "none",
-        website: "none",
-    },*/
     {
         id: 28,
         name: "YukiBlaze",
@@ -299,16 +269,6 @@ export const creditsAll = [
         youtube: "none",
         website: "none",
     },
-    /*{
-        id: 31,
-        name: "KIBA100",
-        image: require("../../images/credit-icons/kiba100.png"),
-        role: "backstage",
-        twitter: "none",
-        twitch: "https://www.twitch.tv/kiba_the_baowl",
-        youtube: "none",
-        website: "none",
-    },*/
     {
         id: 32,
         name: "yggdrasilsdew",
@@ -340,18 +300,6 @@ export const creditsAll = [
         youtube: "none",
         website: "none",
     },
-    /*
-    {
-        id: 35,
-        name: "TheTrashFox",
-        image: require("../../images/credit-icons/placeholder.png"),
-        role: "backstage",
-        twitter: "none",
-        twitch: "none",
-        youtube: "none",
-        website: "https://thetrashfox.carrd.co/",
-    },
-    */
     {
         id: 36,
         name: "Jokerr",
@@ -414,10 +362,10 @@ export const creditsAll = [
     },
     {
         id: 42,
-        name: "LexsNonsense",
+        name: "Aleafaa",
         image: require("../../images/credit-icons/lexnonsense.png"),
         role: "voice",
-        twitter: "http://twitter.com/lexsnonsense",
+        twitter: "https://twitter.com/ImAleafaa",
         twitch: "none",
         youtube: "none",
         website: "none",
@@ -467,7 +415,7 @@ export const creditsAll = [
         name: "LandonCSWH",
         image: require("../../images/credit-icons/landon.png"),
         role: "voice",
-        twitter: "none",
+        twitter: "https://twitter.com/landonseonwook",
         twitch: "none",
         youtube: "none",
         website: "none",
@@ -475,11 +423,11 @@ export const creditsAll = [
     {
         id: 48,
         name: "Xenaela",
-        image: require("../../images/credit-icons/placeholder.png"),
+        image: require("../../images/credit-icons/xenaela.png"),
         role: "backstage",
-        twitter: "none",
+        twitter: "https://twitter.com/Jackygamez2",
         twitch: "none",
-        youtube: "none",
+        youtube: "https://www.youtube.com/@Jackygamez",
         website: "none",
     },
     {
@@ -495,23 +443,13 @@ export const creditsAll = [
     {
         id: 50,
         name: "KKSkitz",
-        image: require("../../images/credit-icons/placeholder.png"),
+        image: require("../../images/credit-icons/kkskitz.png"),
         role: "backstage",
         twitter: "none",
         twitch: "none",
         youtube: "none",
-        website: "none",
+        website: "https://kkskitz.carrd.co",
     },
-    /*{
-        id: 51,
-        name: "CelestialAngel0",
-        image: require("../../images/credit-icons/placeholder.png"),
-        role: "backstage",
-        twitter: "none",
-        twitch: "none",
-        youtube: "none",
-        website: "https://celestialangel0.carrd.co/",
-    },*/
     {
         id: 52,
         name: "Zandyr Maxwell",
@@ -571,6 +509,26 @@ export const creditsAll = [
         twitch: "none",
         youtube: "none",
         website: "none",
+    },
+    {
+        id: 58,
+        name: "My_Swampert",
+        image: require("../../images/credit-icons/placeholder.png"),
+        role: "voice",
+        twitter: "none",
+        twitch: "none",
+        youtube: "none",
+        website: "https://myswampert.carrd.co/",
+    },
+    {
+        id: 59,
+        name: "spiritsahybrid",
+        image: require("../../images/credit-icons/spiritthefoxcat.png"),
+        role: "voice",
+        twitter: "none",
+        twitch: "none",
+        youtube: "none",
+        website: "https://hybridizedhere.carrd.co/",
     },
 
 ];
