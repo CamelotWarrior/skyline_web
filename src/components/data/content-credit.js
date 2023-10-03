@@ -502,7 +502,7 @@ export const creditsAll = [
         youtube: "none",
         website: "none",
     },
-    {
+    /*{
         id: 51,
         name: "CelestialAngel0",
         image: require("../../images/credit-icons/placeholder.png"),
@@ -511,7 +511,7 @@ export const creditsAll = [
         twitch: "none",
         youtube: "none",
         website: "https://celestialangel0.carrd.co/",
-    },
+    },*/
     {
         id: 52,
         name: "Zandyr Maxwell",
